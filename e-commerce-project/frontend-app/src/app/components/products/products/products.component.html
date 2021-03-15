@@ -1,0 +1,121 @@
+<section class="content-header">
+  <h1>Ürünler
+    <small>Ürünlerle ilgili detaylara buradan ulaşabilirsiniz.</small>
+    <button class="btn btn-flat btn-danger" style="float: right;" (click)="goLogin()" *ngIf="!isAuthenticated">Giriş Yap</button>
+  </h1>
+
+</section>
+<div class="content">
+  <div class="row">
+    <div class="col-xs-12">
+      <div class="box box-danger">
+        <div class="box-header">
+          <h3 class="box-title">Ürün Listesi</h3>
+          <div class="box-tools pull-right">
+            <button type="button" class="btn btn-flat btn-danger" *ngIf="isAuthenticated" (click)="showProductModal()">Ürün Ekle</button>
+          </div>
+        </div>
+        <div class="box-body">
+          <div class="card">
+            <p-dataView #dv emptyMessage="Kayıt Yok" [value]="products" [paginator]="true" [rows]="8" filterBy="name" [sortField]="sortField" [sortOrder]="sortOrder" layout="grid">
+              <ng-template pTemplate="header">
+                <div class="p-d-flex p-flex-column p-flex-md-row p-jc-md-between">
+                  <p-dropdown [options]="sortOptions" [(ngModel)]="sortKey" placeholder="Sırala" (onChange)="onSortChange($event)" styleClass="p-mb-2 p-mb-md-0"></p-dropdown>
+                  <span class="p-input-icon-left p-mb-2 p-mb-md-0">
+                    <i class="pi pi-search"></i>
+                    <input type="search" pInputText placeholder="Ürün Ara" (keyup)="dv.filter(target($event).value)">
+                  </span>
+                  <p-dataViewLayoutOptions></p-dataViewLayoutOptions>
+                </div>
+              </ng-template>
+              <ng-template let-product pTemplate="listItem">
+                <div class="p-col-12">
+                  <div class="product-list-item">
+                    <img *ngIf="product.productImages.length == 0" src="assets/img/no_photo.png" />
+                    <img *ngIf="product.productImages.length > 0" [src]="product.productImages[0].url" [alt]="product.name" />
+                    <div class="product-list-detail">
+                      <div class="product-name">{{product.name}}</div>
+                      <div class="product-description">{{product.description}}</div>
+                      <p-rating [ngModel]="product.rating" [readonly]="true" [cancel]="false"></p-rating>
+                      <i class="pi pi-tag product-category-icon"></i><span class="product-category">{{product.category}}</span>
+                    </div>
+                    <div class="product-list-action">
+                      <span class="product-price">${{product.price}}</span>
+                      <p-button icon="pi pi-shopping-cart" label="Add to Cart" [disabled]="product.inventoryStatus === 'OUTOFSTOCK'"></p-button>
+                      <span [class]="'product-badge status-' + product.inventoryStatus.toLowerCase()">{{product.inventoryStatus}}</span>
+                    </div>
+                  </div>
+                </div>
+              </ng-template>
+              <ng-template let-product pTemplate="gridItem">
+                <div class="p-col-12 p-md-3">
+                  <div class="product-grid-item card">
+                    <div class="product-grid-item-top">
+                      <div>
+                        <i class="pi pi-tag product-category-icon"></i>
+                        <button class="btn btn-flat btn-xs btn-danger" (click)="detailProduct(product.id)" *ngIf="isAuthenticated">Düzenle</button>
+                      </div>
+                      <span [class]="'product-badge status-' + product.inventoryStatus.toLowerCase()">{{product.inventoryStatus}}</span>
+                    </div>
+                    <div class="product-grid-item-content">
+                      <img *ngIf="product.productImages.length == 0" src="assets/img/no_photo.png" />
+                      <img *ngIf="product.productImages.length > 0" [src]="product.productImages[0].url" [alt]="product.name" />
+                      <div class="product-name">{{product.name}}</div>
+                      <div class="product-description">{{product.description}}</div>
+                      <p-rating [ngModel]="product.rating" [readonly]="true" [cancel]="false"></p-rating>
+                    </div>
+                    <div class="product-grid-item-bottom">
+                      <span class="product-price">${{product.price}}</span>
+                      <button class="btn btn-flat btn-xs btn-danger" (click)="detailProduct(product.id)" *ngIf="!isAuthenticated">Ürün Detayı</button>
+                    </div>
+                  </div>
+                </div>
+              </ng-template>
+            </p-dataView>
+          </div>
+        </div>
+        <p-dialog header="Ürün Ekle" [(visible)]="displayProductDialog" [responsive]="true" showEffect="fade" [modal]="true" [closeOnEscape]="true" [dismissableMask]="true">
+          <div class="box-body">
+            <div class="form-horizontal">
+              <div class="form-group">
+                <label class="col-sm-2 control-label">Ürün Adı</label>
+                <div class="col-sm-10">
+                  <input type="text" class="form-control" [(ngModel)]="product.name">
+                </div>
+              </div>
+
+              <div class="form-group">
+                <label class="col-sm-2 control-label">Açıklama</label>
+                <div class="col-sm-10">
+                  <input type="text" class="form-control" [(ngModel)]="product.description">
+                </div>
+              </div>
+
+              <div class="form-group">
+                <label class="col-sm-2 control-label">Ürün Fiyatı</label>
+                <div class="col-sm-10">
+                  <input type="number" class="form-control" [(ngModel)]="product.price">
+                </div>
+              </div>
+
+              <div class="form-group">
+                <label class="col-sm-2 control-label">Ürün Stok</label>
+                <div class="col-sm-10">
+                  <input type="number" class="form-control" [(ngModel)]="product.piece">
+                </div>
+              </div>
+
+              <div class="box-footer">
+                <button class="btn btn-flat btn-primary pull-right" (click)="addProduct()">Ürün Ekle</button>
+              </div>
+            </div>
+          </div>
+
+        </p-dialog>
+        <div class="overlay" *ngIf="loading">
+          <i class="fa fa-refresh fa-spin"></i>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

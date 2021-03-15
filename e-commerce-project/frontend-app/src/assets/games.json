@@ -1,0 +1,1570 @@
+{
+  "data": {
+    "users": [
+      {
+        "id": "c5421722-3138-451c-9bb7-43319c91f4a2",
+        "name": "SERDAR",
+        "surname": "SALIK",
+        "department": "TEKNOLOJİ, DİJİTAL VE BİREYSEL TEKNİK",
+        "title": "YÖNETİCİ 1",
+        "avatar": "https://hrweb.sabancidx.com/ik/images/personel/AKS01/3055.jpeg",
+        "badges": null,
+        "loggedIn": null
+      },
+      {
+        "id": "bf9dbfb5-c812-46e5-ace8-1e24b3c309e5",
+        "name": "ŞİRİN",
+        "surname": "BEYDİLLİ",
+        "department": "BİREYSEL SATIŞ VE PAZARLAMA",
+        "title": "YÖNETİCİ 3",
+        "avatar": "https://hrweb.sabancidx.com/ik/images/personel/AKS01/3059.jpg",
+        "badges": null,
+        "loggedIn": null
+      },
+      {
+        "id": "28ae6993-be99-4cd0-8949-a3bdc461d3aa",
+        "name": "FİKRET",
+        "surname": "ÇETİNALP",
+        "department": "HASAR MÜŞTERİ DENEYİMİ",
+        "title": "UZMAN",
+        "avatar": "https://hrweb.sabancidx.com/ik/images/personel/AKS01/3060.jpg",
+        "badges": null,
+        "loggedIn": null
+      },
+      {
+        "id": "97bbc224-9c6a-42f8-93e2-0251f564729d",
+        "name": "DİLAN",
+        "surname": "GÜRSÖZ",
+        "department": "TEKNOLOJİ, DİJİTAL VE BİREYSEL TEKNİK",
+        "title": "YÖNETİCİ 1",
+        "avatar": "https://hrweb.sabancidx.com/ik/images/personel/AKS01/3061.jpg",
+        "badges": null,
+        "loggedIn": null
+      },
+      {
+        "id": "e5e9e3de-5e36-4158-afd8-06c4ca4eaf3d",
+        "name": "GAMZE",
+        "surname": "KAHRİMAN",
+        "department": "TEKNOLOJİ, DİJİTAL VE BİREYSEL TEKNİK",
+        "title": "YÖNETİCİ 1",
+        "avatar": "https://hrweb.sabancidx.com/ik/images/personel/AKS01/3062.jpg",
+        "badges": null,
+        "loggedIn": null
+      },
+      {
+        "id": "eb072500-03f8-440b-9417-0b279896f5f5",
+        "name": "ALPER",
+        "surname": "YILDIRIM",
+        "department": "BİREYSEL SATIŞ VE PAZARLAMA",
+        "title": "STAJYER",
+        "avatar": "https://hrweb.sabancidx.com/ik/images/personel/AKS01/30197.jpg",
+        "badges": null,
+        "loggedIn": null
+      },
+      {
+        "id": "e87d8c94-3232-4779-b8e8-c95bad5f9b5e",
+        "name": "EMRE",
+        "surname": "ERKUŞ",
+        "department": "HASAR MÜŞTERİ DENEYİMİ",
+        "title": "STAJYER",
+        "avatar": "",
+        "badges": null,
+        "loggedIn": null
+      },
+      {
+        "id": "c5730e2c-3a58-4e10-9849-0d90b0723739",
+        "name": "FATMANUR",
+        "surname": "OLGUN",
+        "department": "BİREYSEL SATIŞ VE PAZARLAMA",
+        "title": "STAJYER",
+        "avatar": "",
+        "badges": null,
+        "loggedIn": null
+      },
+      {
+        "id": "2be59187-1029-412b-81b8-57fe634d24bd",
+        "name": "HAZAL",
+        "surname": "DEMİR",
+        "department": "İNSAN KAYNAKLARI, SATIN ALMA VE İDARİ İŞLER",
+        "title": "STAJYER",
+        "avatar": "https://hrweb.sabancidx.com/ik/images/personel/AKS01/30200.jpg",
+        "badges": null,
+        "loggedIn": null
+      },
+      {
+        "id": "de17bab2-333a-4730-bd8d-49657d654708",
+        "name": "TUĞÇE",
+        "surname": "ERDOĞDU",
+        "department": "TEKNOLOJİ, DİJİTAL VE BİREYSEL TEKNİK",
+        "title": "STAJYER",
+        "avatar": "",
+        "badges": null,
+        "loggedIn": null
+      },
+      {
+        "id": "4a215520-7f0a-4cc7-ad91-c7f5d5275d8b",
+        "name": "MERVE",
+        "surname": "EKİZ",
+        "department": "TEKNOLOJİ, DİJİTAL VE BİREYSEL TEKNİK",
+        "title": "STAJYER",
+        "avatar": "",
+        "badges": null,
+        "loggedIn": null
+      }
+    ],
+    "days": [
+      {
+        "name": "1. Gün",
+        "day": 1,
+        "tasks": [
+          {
+            "taskID": "89fc59ee-5fc7-46f5-8296-e7cad0e4fd3d",
+            "showType": "info",
+            "type": "info",
+            "point": 0,
+            "description": "Merhaba değerli Aksigortalı, (kişi tanımlaması ile isimle hitap mümkün olabilir) Aramıza katılacağın günü bir süredir heyecanla bekliyorduk ve büyük gün geldi çattı. Aramıza hoş geldin, iyi ki geldin. Aksigorta’yı, buradaki rolünü ve diğer Aksigortalıları tanıyacağın bu ilk haftalarında buddy rolündeki arkadaşınla takip edebileceğin bir oyun hazırladık. Bu süreçte sana buddy olarak eşlik edecek ekip arkadaşından mate olarak bahsedeceğiz. 3 hafta sürecek bu yolculuğunda sıradaki görevleri tamamlama, puanlarını topla, sonrasında ödül havuzundan dilediğini seç! İyi eğlenceler. ☺",
+            "quiz": null,
+            "url": null,
+            "users": []
+          },
+          {
+            "taskID": "3cbf7500-2985-4d36-acb4-97acc4a77532",
+            "showType": "task",
+            "type": "uploadImage",
+            "point": 10,
+            "description": "Oryantasyon programına dahil ol ve programdaki diğer Aksigortalılarla bir fotoğraf çekerek yükle.",
+            "quiz": null,
+            "url": null,
+            "users": [
+              {
+                "userID": "bf9dbfb5-c812-46e5-ace8-1e24b3c309e5",
+                "jsonResponseString": "{\"type\":\"image\",\"imagePath\":\"taskPhotos/3cbf7500-2985-4d36-acb4-97acc4a77532-389aebfe-cff5-49a9-ab6b-5d8a97c49ea9.jpg\"}"
+              },
+              {
+                "userID": "28ae6993-be99-4cd0-8949-a3bdc461d3aa",
+                "jsonResponseString": "{\"type\":\"image\",\"imagePath\":\"taskPhotos/3cbf7500-2985-4d36-acb4-97acc4a77532-a773f94e-7fea-43a2-840b-ef8ad86c0494.jpg\"}"
+              },
+              {
+                "userID": "97bbc224-9c6a-42f8-93e2-0251f564729d",
+                "jsonResponseString": "{\"type\":\"image\",\"imagePath\":\"taskPhotos/3cbf7500-2985-4d36-acb4-97acc4a77532-a03e31b3-1990-4169-8f7d-1d847e26b902.jpg\"}"
+              },
+              {
+                "userID": "c5421722-3138-451c-9bb7-43319c91f4a2",
+                "jsonResponseString": "{\"type\":\"image\",\"imagePath\":\"taskPhotos/3cbf7500-2985-4d36-acb4-97acc4a77532-91e87d52-a009-41cb-9bfc-90f3dd960920.jpg\"}"
+              },
+              {
+                "userID": "e5e9e3de-5e36-4158-afd8-06c4ca4eaf3d",
+                "jsonResponseString": "{\"type\":\"image\",\"imagePath\":\"taskPhotos/3cbf7500-2985-4d36-acb4-97acc4a77532-320c4533-94e1-4160-998b-c913779f7f65.jpg\"}"
+              },
+              {
+                "userID": "eb072500-03f8-440b-9417-0b279896f5f5",
+                "jsonResponseString": "{\"type\":\"image\",\"imagePath\":\"taskPhotos/3cbf7500-2985-4d36-acb4-97acc4a77532-2c2afeae-2190-44ba-bb1d-013bd109db5c.jpg\"}"
+              },
+              {
+                "userID": "c5730e2c-3a58-4e10-9849-0d90b0723739",
+                "jsonResponseString": "{\"type\":\"image\",\"imagePath\":\"taskPhotos/3cbf7500-2985-4d36-acb4-97acc4a77532-5fbd2966-9444-47a7-a136-eb2232bf98df.jpg\"}"
+              },
+              {
+                "userID": "4a215520-7f0a-4cc7-ad91-c7f5d5275d8b",
+                "jsonResponseString": "{\"type\":\"image\",\"imagePath\":\"taskPhotos/3cbf7500-2985-4d36-acb4-97acc4a77532-ecbc3725-dbda-443a-8b2f-b597817a652f.jpg\"}"
+              }
+            ]
+          },
+          {
+            "taskID": "e85f47d9-e6ce-4139-8add-cfb9dcb3f6d9",
+            "showType": "task",
+            "type": "quiz",
+            "point": 20,
+            "description": "Aksigorta ile ilgili mini bir quiz.",
+            "quiz": {
+              "quizID": "f8df59d3-7d82-456e-9343-db8b81830362",
+              "questions": [
+                {
+                  "questionID": "d8665299-244d-4ccd-8f71-68a1102f08be",
+                  "question": "Aksigorta Türkiye genelinde kaç bölge müdürlüğü ile hizmet vermektedir?",
+                  "answer": "1218d5e7-3701-4357-8f6d-762ae221e23b",
+                  "failAction": "info",
+                  "options": [
+                    {
+                      "optionKey": "bf29df02-3716-49a4-ab77-73cc4687c35e",
+                      "optionKeyText": null,
+                      "optionText": "A) 8",
+                      "infoOnFail": " Aksigorta toplamda 10 bölge müdürlüğü ile hizmet vermektedir. Satış Kanallarımız sekmesinden bölge müdürlüklerimizi daha detaylı olarak inceleyebilirsin."
+                    },
+                    {
+                      "optionKey": "d3541877-cb1e-4c53-bf7e-7794a030a1bc",
+                      "optionKeyText": null,
+                      "optionText": "B) 12",
+                      "infoOnFail": " Aksigorta toplamda 10 bölge müdürlüğü ile hizmet vermektedir. Satış Kanallarımız sekmesinden bölge müdürlüklerimizi daha detaylı olarak inceleyebilirsin."
+                    },
+                    {
+                      "optionKey": "1218d5e7-3701-4357-8f6d-762ae221e23b",
+                      "optionKeyText": null,
+                      "optionText": "C) 10",
+                      "infoOnFail": null
+                    },
+                    {
+                      "optionKey": "45b7fa5e-561f-4e9c-a969-374d5fad38e5",
+                      "optionKeyText": null,
+                      "optionText": "D) 6",
+                      "infoOnFail": " Aksigorta toplamda 10 bölge müdürlüğü ile hizmet vermektedir. Satış Kanallarımız sekmesinden bölge müdürlüklerimizi daha detaylı olarak inceleyebilirsin."
+                    }
+                  ]
+                },
+                {
+                  "questionID": "d8ff3653-26ba-4924-9790-973aac638a5d",
+                  "question": "Aşağıdakilerden hangisi Aksigortalıların çalışma şeklini ifade eden değerlerden değildir?",
+                  "answer": "42a37bed-aa76-43ef-8f16-b1f47c554328",
+                  "failAction": "info",
+                  "options": [
+                    {
+                      "optionKey": "75ad7a07-5b88-487e-857f-098ee798bb36",
+                      "optionKeyText": null,
+                      "optionText": "A) Sürekli Gelişim",
+                      "infoOnFail": " Müşteri Odaklılık çok önemli bir kavram olsa da Aksigortalıların çalışma değeri değil, Aksigorta’nın önceliğidir. X+5 stratejimizdeki diğer önceliklerimiz ise; inovasyon, yeni teknolojiler, dijital, analitik şeklindedir. Vizyonumuz ve Değerlerimiz sekmesine girerek çalışma değerlerimizi detaylı olarak inceleyebilirsin."
+                    },
+                    {
+                      "optionKey": "5d74c3b5-c328-4d60-938e-626dade434d1",
+                      "optionKeyText": null,
+                      "optionText": "B) Sonuç Odaklılık.",
+                      "infoOnFail": " Müşteri Odaklılık çok önemli bir kavram olsa da Aksigortalıların çalışma değeri değil, Aksigorta’nın önceliğidir. X+5 stratejimizdeki diğer önceliklerimiz ise; inovasyon, yeni teknolojiler, dijital, analitik şeklindedir. Vizyonumuz ve Değerlerimiz sekmesine girerek çalışma değerlerimizi detaylı olarak inceleyebilirsin."
+                    },
+                    {
+                      "optionKey": "42a37bed-aa76-43ef-8f16-b1f47c554328",
+                      "optionKeyText": null,
+                      "optionText": "C) Müşteri Odaklılık",
+                      "infoOnFail": null
+                    },
+                    {
+                      "optionKey": "01fcc968-09ea-4b04-80de-62fc669beda2",
+                      "optionKeyText": null,
+                      "optionText": "D) İş Birliği",
+                      "infoOnFail": " Müşteri Odaklılık çok önemli bir kavram olsa da Aksigortalıların çalışma değeri değil, Aksigorta’nın önceliğidir. X+5 stratejimizdeki diğer önceliklerimiz ise; inovasyon, yeni teknolojiler, dijital, analitik şeklindedir. Vizyonumuz ve Değerlerimiz sekmesine girerek çalışma değerlerimizi detaylı olarak inceleyebilirsin."
+                    }
+                  ]
+                },
+                {
+                  "questionID": "aa7984fd-5613-4918-95c3-01d14662f093",
+                  "question": "Aksigorta’da toplam kaç fonksiyon vardır?",
+                  "answer": "3c2ff769-62fd-40f4-be0b-dc1dd96db73d",
+                  "failAction": "info",
+                  "options": [
+                    {
+                      "optionKey": "3c2ff769-62fd-40f4-be0b-dc1dd96db73d",
+                      "optionKeyText": null,
+                      "optionText": "A) 7",
+                      "infoOnFail": null
+                    },
+                    {
+                      "optionKey": "9acb20fa-565d-466e-8b96-270987955345",
+                      "optionKeyText": null,
+                      "optionText": "B) 8",
+                      "infoOnFail": "Aksigorta’da toplamda 7 fonksiyon vardır. Fonksiyonlarımız sekmesinden detaylı bilgilere ulaşabilirsin."
+                    },
+                    {
+                      "optionKey": "30a77d62-9aa1-432c-a9e3-28baa00a330d",
+                      "optionKeyText": null,
+                      "optionText": "C) 9",
+                      "infoOnFail": "Aksigorta’da toplamda 7 fonksiyon vardır. Fonksiyonlarımız sekmesinden detaylı bilgilere ulaşabilirsin."
+                    },
+                    {
+                      "optionKey": "22dc1dbf-cda7-4c9f-af04-6a2882e5fa22",
+                      "optionKeyText": null,
+                      "optionText": "D) 10",
+                      "infoOnFail": "Aksigorta’da toplamda 7 fonksiyon vardır. Fonksiyonlarımız sekmesinden detaylı bilgilere ulaşabilirsin."
+                    }
+                  ]
+                },
+                {
+                  "questionID": "0e0adaca-f1ad-403e-8ae0-0eed13a3ec16",
+                  "question": "Aksigorta’nın ortaklık yapısı nasıldır?",
+                  "answer": "465d0828-c923-49e1-b28b-20b9da319013",
+                  "failAction": "info",
+                  "options": [
+                    {
+                      "optionKey": "d1a341e2-35d9-4672-b55d-2053b610bfaa",
+                      "optionKeyText": null,
+                      "optionText": "A) %50 Sabancı Holding\n   %50 Ageas Group",
+                      "infoOnFail": "Aksigorta’nın %28’lik hissesi halka açıkken, %72’si Sabancı Holding ve Ageas Group’un yarı yarıya ortaklığındadır. Daha detaylı bilgi için «Dünden Bugüne Aksigorta» sekmesine göz atabilirsin."
+                    },
+                    {
+                      "optionKey": "8d9c9ff5-c161-4c8b-a975-ce5c7471da16",
+                      "optionKeyText": null,
+                      "optionText": "B) %34 Sabancı Holding\n   %33 Ageas Group\n   %33 Halka Açık",
+                      "infoOnFail": "Aksigorta’nın %28’lik hissesi halka açıkken, %72’si Sabancı Holding ve Ageas Group’un yarı yarıya ortaklığındadır. Daha detaylı bilgi için «Dünden Bugüne Aksigorta» sekmesine göz atabilirsin."
+                    },
+                    {
+                      "optionKey": "fbfc398f-df35-4361-8ebc-0bb62c978290",
+                      "optionKeyText": null,
+                      "optionText": "C) %50 Sabancı Holding\n   %25 Ageas Group\n   %25 Halka Açık",
+                      "infoOnFail": "Aksigorta’nın %28’lik hissesi halka açıkken, %72’si Sabancı Holding ve Ageas Group’un yarı yarıya ortaklığındadır. Daha detaylı bilgi için «Dünden Bugüne Aksigorta» sekmesine göz atabilirsin."
+                    },
+                    {
+                      "optionKey": "465d0828-c923-49e1-b28b-20b9da319013",
+                      "optionKeyText": null,
+                      "optionText": "D) %36 Sabancı Holding\n   %36 Ageas Group\n   %28 Halka Açık",
+                      "infoOnFail": null
+                    }
+                  ]
+                },
+                {
+                  "questionID": "26dee097-f9d7-4788-83d2-98d5fa8b8eab",
+                  "question": "Aksigorta sosyal platformunun adı nedir?",
+                  "answer": "ae4d84ee-354c-46a5-9fa8-62c5f8df1e05",
+                  "failAction": "info",
+                  "options": [
+                    {
+                      "optionKey": "20682287-049f-4140-b1ad-79d6a36ed79e",
+                      "optionKeyText": null,
+                      "optionText": "A) Nabız",
+                      "infoOnFail": "Aksigortalılar Bizbize sosyal platformunda sosyalleşirler."
+                    },
+                    {
+                      "optionKey": "ae4d84ee-354c-46a5-9fa8-62c5f8df1e05",
+                      "optionKeyText": null,
+                      "optionText": "B) Bizbize",
+                      "infoOnFail": null
+                    },
+                    {
+                      "optionKey": "e270466c-d439-4879-bc40-f3a328977477",
+                      "optionKeyText": null,
+                      "optionText": "C) Aksigortalı",
+                      "infoOnFail": "Aksigortalılar Bizbize sosyal platformunda sosyalleşirler."
+                    },
+                    {
+                      "optionKey": "a33c30c1-297e-41c0-b2cb-a2a88949cf0a",
+                      "optionKeyText": null,
+                      "optionText": "D) HR-Web",
+                      "infoOnFail": "Aksigortalılar Bizbize sosyal platformunda sosyalleşirler."
+                    }
+                  ]
+                }
+              ]
+            },
+            "url": null,
+            "users": [
+              {
+                "userID": "4a215520-7f0a-4cc7-ad91-c7f5d5275d8b",
+                "jsonResponseString": "{\"type\":\"quiz\",\"answers\":[{\"questionID\":\"d8665299-244d-4ccd-8f71-68a1102f08be\",\"optionID\":\"1218d5e7-3701-4357-8f6d-762ae221e23b\"},{\"questionID\":\"d8ff3653-26ba-4924-9790-973aac638a5d\",\"optionID\":\"42a37bed-aa76-43ef-8f16-b1f47c554328\"},{\"questionID\":\"aa7984fd-5613-4918-95c3-01d14662f093\",\"optionID\":\"3c2ff769-62fd-40f4-be0b-dc1dd96db73d\"},{\"questionID\":\"0e0adaca-f1ad-403e-8ae0-0eed13a3ec16\",\"optionID\":\"465d0828-c923-49e1-b28b-20b9da319013\"},{\"questionID\":\"26dee097-f9d7-4788-83d2-98d5fa8b8eab\",\"optionID\":\"ae4d84ee-354c-46a5-9fa8-62c5f8df1e05\"}]}"
+              },
+              {
+                "userID": "de17bab2-333a-4730-bd8d-49657d654708",
+                "jsonResponseString": "{\"type\":\"quiz\",\"answers\":[{\"questionID\":\"d8665299-244d-4ccd-8f71-68a1102f08be\",\"optionID\":\"45b7fa5e-561f-4e9c-a969-374d5fad38e5\"},{\"questionID\":\"d8ff3653-26ba-4924-9790-973aac638a5d\",\"optionID\":\"01fcc968-09ea-4b04-80de-62fc669beda2\"},{\"questionID\":\"aa7984fd-5613-4918-95c3-01d14662f093\",\"optionID\":\"30a77d62-9aa1-432c-a9e3-28baa00a330d\"},{\"questionID\":\"0e0adaca-f1ad-403e-8ae0-0eed13a3ec16\",\"optionID\":\"fbfc398f-df35-4361-8ebc-0bb62c978290\"},{\"questionID\":\"26dee097-f9d7-4788-83d2-98d5fa8b8eab\",\"optionID\":\"e270466c-d439-4879-bc40-f3a328977477\"}]}"
+              },
+              {
+                "userID": "2be59187-1029-412b-81b8-57fe634d24bd",
+                "jsonResponseString": "{\"type\":\"quiz\",\"answers\":[{\"questionID\":\"d8665299-244d-4ccd-8f71-68a1102f08be\",\"optionID\":\"d3541877-cb1e-4c53-bf7e-7794a030a1bc\"},{\"questionID\":\"d8ff3653-26ba-4924-9790-973aac638a5d\",\"optionID\":\"42a37bed-aa76-43ef-8f16-b1f47c554328\"},{\"questionID\":\"aa7984fd-5613-4918-95c3-01d14662f093\",\"optionID\":\"30a77d62-9aa1-432c-a9e3-28baa00a330d\"},{\"questionID\":\"0e0adaca-f1ad-403e-8ae0-0eed13a3ec16\",\"optionID\":\"fbfc398f-df35-4361-8ebc-0bb62c978290\"},{\"questionID\":\"26dee097-f9d7-4788-83d2-98d5fa8b8eab\",\"optionID\":\"e270466c-d439-4879-bc40-f3a328977477\"}]}"
+              },
+              {
+                "userID": "c5730e2c-3a58-4e10-9849-0d90b0723739",
+                "jsonResponseString": "{\"type\":\"quiz\",\"answers\":[{\"questionID\":\"d8665299-244d-4ccd-8f71-68a1102f08be\",\"optionID\":\"bf29df02-3716-49a4-ab77-73cc4687c35e\"},{\"questionID\":\"d8ff3653-26ba-4924-9790-973aac638a5d\",\"optionID\":\"42a37bed-aa76-43ef-8f16-b1f47c554328\"},{\"questionID\":\"aa7984fd-5613-4918-95c3-01d14662f093\",\"optionID\":\"30a77d62-9aa1-432c-a9e3-28baa00a330d\"},{\"questionID\":\"0e0adaca-f1ad-403e-8ae0-0eed13a3ec16\",\"optionID\":\"d1a341e2-35d9-4672-b55d-2053b610bfaa\"},{\"questionID\":\"26dee097-f9d7-4788-83d2-98d5fa8b8eab\",\"optionID\":\"a33c30c1-297e-41c0-b2cb-a2a88949cf0a\"}]}"
+              },
+              {
+                "userID": "e87d8c94-3232-4779-b8e8-c95bad5f9b5e",
+                "jsonResponseString": "{\"type\":\"quiz\",\"answers\":[{\"questionID\":\"d8665299-244d-4ccd-8f71-68a1102f08be\",\"optionID\":\"1218d5e7-3701-4357-8f6d-762ae221e23b\"},{\"questionID\":\"d8ff3653-26ba-4924-9790-973aac638a5d\",\"optionID\":\"42a37bed-aa76-43ef-8f16-b1f47c554328\"},{\"questionID\":\"aa7984fd-5613-4918-95c3-01d14662f093\",\"optionID\":\"9acb20fa-565d-466e-8b96-270987955345\"},{\"questionID\":\"0e0adaca-f1ad-403e-8ae0-0eed13a3ec16\",\"optionID\":\"8d9c9ff5-c161-4c8b-a975-ce5c7471da16\"},{\"questionID\":\"26dee097-f9d7-4788-83d2-98d5fa8b8eab\",\"optionID\":\"ae4d84ee-354c-46a5-9fa8-62c5f8df1e05\"}]}"
+              },
+              {
+                "userID": "e5e9e3de-5e36-4158-afd8-06c4ca4eaf3d",
+                "jsonResponseString": "{\"type\":\"quiz\",\"answers\":[{\"questionID\":\"d8665299-244d-4ccd-8f71-68a1102f08be\",\"optionID\":\"1218d5e7-3701-4357-8f6d-762ae221e23b\"},{\"questionID\":\"d8ff3653-26ba-4924-9790-973aac638a5d\",\"optionID\":\"42a37bed-aa76-43ef-8f16-b1f47c554328\"},{\"questionID\":\"aa7984fd-5613-4918-95c3-01d14662f093\",\"optionID\":\"3c2ff769-62fd-40f4-be0b-dc1dd96db73d\"},{\"questionID\":\"0e0adaca-f1ad-403e-8ae0-0eed13a3ec16\",\"optionID\":\"465d0828-c923-49e1-b28b-20b9da319013\"},{\"questionID\":\"26dee097-f9d7-4788-83d2-98d5fa8b8eab\",\"optionID\":\"ae4d84ee-354c-46a5-9fa8-62c5f8df1e05\"}]}"
+              },
+              {
+                "userID": "eb072500-03f8-440b-9417-0b279896f5f5",
+                "jsonResponseString": "{\"type\":\"quiz\",\"answers\":[{\"questionID\":\"d8665299-244d-4ccd-8f71-68a1102f08be\",\"optionID\":\"bf29df02-3716-49a4-ab77-73cc4687c35e\"},{\"questionID\":\"d8ff3653-26ba-4924-9790-973aac638a5d\",\"optionID\":\"75ad7a07-5b88-487e-857f-098ee798bb36\"},{\"questionID\":\"aa7984fd-5613-4918-95c3-01d14662f093\",\"optionID\":\"3c2ff769-62fd-40f4-be0b-dc1dd96db73d\"},{\"questionID\":\"0e0adaca-f1ad-403e-8ae0-0eed13a3ec16\",\"optionID\":\"465d0828-c923-49e1-b28b-20b9da319013\"},{\"questionID\":\"26dee097-f9d7-4788-83d2-98d5fa8b8eab\",\"optionID\":\"e270466c-d439-4879-bc40-f3a328977477\"}]}"
+              },
+              {
+                "userID": "28ae6993-be99-4cd0-8949-a3bdc461d3aa",
+                "jsonResponseString": "{\"type\":\"quiz\",\"answers\":[{\"questionID\":\"d8665299-244d-4ccd-8f71-68a1102f08be\",\"optionID\":\"1218d5e7-3701-4357-8f6d-762ae221e23b\"},{\"questionID\":\"d8ff3653-26ba-4924-9790-973aac638a5d\",\"optionID\":\"42a37bed-aa76-43ef-8f16-b1f47c554328\"},{\"questionID\":\"aa7984fd-5613-4918-95c3-01d14662f093\",\"optionID\":\"3c2ff769-62fd-40f4-be0b-dc1dd96db73d\"},{\"questionID\":\"0e0adaca-f1ad-403e-8ae0-0eed13a3ec16\",\"optionID\":\"465d0828-c923-49e1-b28b-20b9da319013\"},{\"questionID\":\"26dee097-f9d7-4788-83d2-98d5fa8b8eab\",\"optionID\":\"ae4d84ee-354c-46a5-9fa8-62c5f8df1e05\"}]}"
+              }
+            ]
+          },
+          {
+            "taskID": "8ae009d9-1b45-4ed0-a149-c88d924b61de",
+            "showType": "info",
+            "type": "info",
+            "point": 0,
+            "description": "İşe başlama için gerekli tüm evraklarını İnsan Kaynaklarına teslim ettiğinden emin ol.",
+            "quiz": null,
+            "url": null,
+            "users": []
+          },
+          {
+            "taskID": "d50fef0a-35f5-44bb-acf9-c889fb77817b",
+            "showType": "question",
+            "type": "freetext",
+            "point": 0,
+            "description": "Aksigorta Mate’inle tanıştın mı? İsmini bizimle paylaşır mısın?",
+            "quiz": null,
+            "url": null,
+            "users": [
+              {
+                "userID": "91e87d52-a009-41cb-9bfc-90f3dd960920",
+                "jsonResponseString": "{\"type\":\"image\",\"answer\":\"bhfhhk\"}"
+              },
+              {
+                "userID": "320c4533-94e1-4160-998b-c913779f7f65",
+                "jsonResponseString": "{\"type\":\"image\",\"answer\":\"    \"}"
+              },
+              {
+                "userID": "ecbc3725-dbda-443a-8b2f-b597817a652f",
+                "jsonResponseString": "{\"type\":\"image\",\"answer\":\"test\"}"
+              },
+              {
+                "userID": "a03e31b3-1990-4169-8f7d-1d847e26b902",
+                "jsonResponseString": "{\"type\":\"image\",\"answer\":\"Okan\"}"
+              },
+              {
+                "userID": "97bbc224-9c6a-42f8-93e2-0251f564729d",
+                "jsonResponseString": "{\"type\":\"image\",\"answer\":\"Test\"}"
+              },
+              {
+                "userID": "2c2afeae-2190-44ba-bb1d-013bd109db5c",
+                "jsonResponseString": "{\"type\":\"image\",\"answer\":\"evet\"}"
+              },
+              {
+                "userID": "389aebfe-cff5-49a9-ab6b-5d8a97c49ea9",
+                "jsonResponseString": "{\"type\":\"image\",\"answer\":\"namik\"}"
+              },
+              {
+                "userID": "a773f94e-7fea-43a2-840b-ef8ad86c0494",
+                "jsonResponseString": "{\"type\":\"image\",\"answer\":\"Test\"}"
+              }
+            ]
+          },
+          {
+            "taskID": "0e6c3a79-1e5f-480e-bb5b-cde2cae5b92d",
+            "showType": "info",
+            "type": "info",
+            "point": 0,
+            "description": "Yarın sıradaki görevler için uygulamayı kontrol etmeyi unutma!",
+            "quiz": null,
+            "url": null,
+            "users": []
+          }
+        ]
+      },
+      {
+        "name": "2.Gün",
+        "day": 2,
+        "tasks": [
+          {
+            "taskID": "78dc3d11-37b4-42d9-985a-f877ff554b42",
+            "showType": "info",
+            "type": "info",
+            "point": 0,
+            "description": "Explore the Next 2. güne hoş geldin. Bu yeni günde seni yeni görevler bekliyor.",
+            "quiz": null,
+            "url": null,
+            "users": []
+          },
+          {
+            "taskID": "816a2edf-a9b4-48ff-8059-83d9a01fe0b2",
+            "showType": "task",
+            "type": "okay",
+            "point": 10,
+            "description": "Bizbize ve Nabız uygulamalarını telefonuna indir. Bizbize’de herkese “Merhaba” diyerek aramıza katıldığını tüm şirkete duyur.",
+            "quiz": null,
+            "url": null,
+            "users": [
+              {
+                "userID": "5fbd2966-9444-47a7-a136-eb2232bf98df",
+                "jsonResponseString": "{\"type\":\"okay\"}"
+              },
+              {
+                "userID": "a773f94e-7fea-43a2-840b-ef8ad86c0494",
+                "jsonResponseString": "{\"type\":\"okay\"}"
+              },
+              {
+                "userID": "a03e31b3-1990-4169-8f7d-1d847e26b902",
+                "jsonResponseString": "{\"type\":\"okay\"}"
+              },
+              {
+                "userID": "320c4533-94e1-4160-998b-c913779f7f65",
+                "jsonResponseString": "{\"type\":\"okay\"}"
+              },
+              {
+                "userID": "ecbc3725-dbda-443a-8b2f-b597817a652f",
+                "jsonResponseString": "{\"type\":\"okay\"}"
+              },
+              {
+                "userID": "389aebfe-cff5-49a9-ab6b-5d8a97c49ea9",
+                "jsonResponseString": "{\"type\":\"okay\"}"
+              },
+              {
+                "userID": "2c2afeae-2190-44ba-bb1d-013bd109db5c",
+                "jsonResponseString": "{\"type\":\"okay\"}"
+              },
+              {
+                "userID": "91e87d52-a009-41cb-9bfc-90f3dd960920",
+                "jsonResponseString": "{\"type\":\"okay\"}"
+              }
+            ]
+          },
+          {
+            "taskID": "4bb40b46-b6e9-47a1-a734-7da9cf71586a",
+            "showType": "info",
+            "type": "info",
+            "point": 0,
+            "description": "Biz Aksigortalılar sürekli gelişim ilkesini benimser, bireysel gelişimimizin sorumluluğunu alırız.",
+            "quiz": null,
+            "url": null,
+            "users": []
+          },
+          {
+            "taskID": "433985a9-8a34-47e9-accb-e72ee0e49cd7",
+            "showType": "question",
+            "type": "freetext",
+            "point": 0,
+            "description": "İnsan kaynakları iş ortağın kim biliyor musun?",
+            "quiz": null,
+            "url": null,
+            "users": [
+              {
+                "userID": "ecbc3725-dbda-443a-8b2f-b597817a652f",
+                "jsonResponseString": "{\"type\":\"image\",\"answer\":\"test\"}"
+              },
+              {
+                "userID": "389aebfe-cff5-49a9-ab6b-5d8a97c49ea9",
+                "jsonResponseString": "{\"type\":\"image\",\"answer\":\"erna\"}"
+              },
+              {
+                "userID": "91e87d52-a009-41cb-9bfc-90f3dd960920",
+                "jsonResponseString": "{\"type\":\"image\",\"answer\":\"uhh\"}"
+              },
+              {
+                "userID": "320c4533-94e1-4160-998b-c913779f7f65",
+                "jsonResponseString": "{\"type\":\"image\",\"answer\":\"Bilmiyorum\"}"
+              },
+              {
+                "userID": "5fbd2966-9444-47a7-a136-eb2232bf98df",
+                "jsonResponseString": "{\"type\":\"image\",\"answer\":\"Test\"}"
+              },
+              {
+                "userID": "2c2afeae-2190-44ba-bb1d-013bd109db5c",
+                "jsonResponseString": "{\"type\":\"image\",\"answer\":\"evet\"}"
+              },
+              {
+                "userID": "a03e31b3-1990-4169-8f7d-1d847e26b902",
+                "jsonResponseString": "{\"type\":\"image\",\"answer\":\"Dilan \"}"
+              },
+              {
+                "userID": "a773f94e-7fea-43a2-840b-ef8ad86c0494",
+                "jsonResponseString": "{\"type\":\"image\",\"answer\":\"Evet\"}"
+              }
+            ]
+          },
+          {
+            "taskID": "6adc8127-3cf6-4bcf-9139-77157045c4c1",
+            "showType": "info",
+            "type": "info",
+            "point": 0,
+            "description": "Bugünkü görevini tamamladın, yarın görüşmek üzere.",
+            "quiz": null,
+            "url": null,
+            "users": []
+          }
+        ]
+      },
+      {
+        "name": "3. Gün",
+        "day": 3,
+        "tasks": [
+          {
+            "taskID": "d18f80cc-f0e6-42c8-b94a-0f317eae1ca6",
+            "showType": "info",
+            "type": "info",
+            "point": 0,
+            "description": "Günaydın! Bugünkü yeni görevlerini tamamlamayı unutma.",
+            "quiz": null,
+            "url": null,
+            "users": []
+          },
+          {
+            "taskID": "420f412d-d6a3-4b0e-abb9-412df76506c6",
+            "showType": "task",
+            "type": "okay",
+            "point": 0,
+            "description": "Aksigorta e-Öğrenme Platformu’nda hesabına tanımlanan “Gelişim Diyalogları” video eğitim serisini tamamla.",
+            "quiz": null,
+            "url": null,
+            "users": [
+              {
+                "userID": "91e87d52-a009-41cb-9bfc-90f3dd960920",
+                "jsonResponseString": "{\"type\":\"okay\"}"
+              },
+              {
+                "userID": "389aebfe-cff5-49a9-ab6b-5d8a97c49ea9",
+                "jsonResponseString": "{\"type\":\"okay\"}"
+              },
+              {
+                "userID": "ecbc3725-dbda-443a-8b2f-b597817a652f",
+                "jsonResponseString": "{\"type\":\"okay\"}"
+              },
+              {
+                "userID": "320c4533-94e1-4160-998b-c913779f7f65",
+                "jsonResponseString": "{\"type\":\"okay\"}"
+              },
+              {
+                "userID": "5fbd2966-9444-47a7-a136-eb2232bf98df",
+                "jsonResponseString": "{\"type\":\"okay\"}"
+              },
+              {
+                "userID": "a03e31b3-1990-4169-8f7d-1d847e26b902",
+                "jsonResponseString": "{\"type\":\"okay\"}"
+              }
+            ]
+          },
+          {
+            "taskID": "1709451a-a6d2-41e0-931b-120f14177a14",
+            "showType": "question",
+            "type": "freetext",
+            "point": 20,
+            "description": "Motive edici ve şekillendirici bildirimler Gelişim Diyalogları eğitiminin hangi başlıklı videosunda geçmektedir?",
+            "quiz": null,
+            "url": null,
+            "users": [
+              {
+                "userID": "320c4533-94e1-4160-998b-c913779f7f65",
+                "jsonResponseString": "{\"type\":\"image\",\"answer\":\"Bilmiyorum\"}"
+              },
+              {
+                "userID": "91e87d52-a009-41cb-9bfc-90f3dd960920",
+                "jsonResponseString": "{\"type\":\"image\",\"answer\":\"kzjjdke.dls\"}"
+              },
+              {
+                "userID": "389aebfe-cff5-49a9-ab6b-5d8a97c49ea9",
+                "jsonResponseString": "{\"type\":\"image\",\"answer\":\"ahmey\"}"
+              },
+              {
+                "userID": "ecbc3725-dbda-443a-8b2f-b597817a652f",
+                "jsonResponseString": "{\"type\":\"image\",\"answer\":\"test\"}"
+              },
+              {
+                "userID": "5fbd2966-9444-47a7-a136-eb2232bf98df",
+                "jsonResponseString": "{\"type\":\"image\",\"answer\":\"Test\"}"
+              }
+            ]
+          },
+          {
+            "taskID": "341bb959-2bd7-450a-887c-0535badc7440",
+            "showType": "info",
+            "type": "info",
+            "point": 0,
+            "description": "Biz Aksigortalılar geri bildirimin geliştirici gücüne inanırız.",
+            "quiz": null,
+            "url": null,
+            "users": []
+          },
+          {
+            "taskID": "7fc76f89-724a-481f-9063-8da0aaddeae4",
+            "showType": "info",
+            "type": "info",
+            "point": 0,
+            "description": "Güzel bir başlangıç yaptın! Yarın puanlarını toplamayı unutma. ",
+            "quiz": null,
+            "url": null,
+            "users": []
+          }
+        ]
+      },
+      {
+        "name": "4. Gün",
+        "day": 4,
+        "tasks": [
+          {
+            "taskID": "d8e0f222-8769-4efa-ad20-b99314b5ec96",
+            "showType": "info",
+            "type": "info",
+            "point": 0,
+            "description": "İlk haftan neredeyse bitiyor, bugünün görevlerini tamamlamayı unutma.",
+            "quiz": null,
+            "url": null,
+            "users": []
+          },
+          {
+            "taskID": "315b1ee8-1023-4833-9069-dff8bedceeb8",
+            "showType": "task",
+            "type": "uploadImage",
+            "point": 5,
+            "description": "Temel Sigortacılık Eğitimi’ni tamamla ve tamamladığına dair ekran görüntüsünü paylaş.",
+            "quiz": null,
+            "url": null,
+            "users": [
+              {
+                "userID": "5fbd2966-9444-47a7-a136-eb2232bf98df",
+                "jsonResponseString": "{\"type\":\"image\",\"imagePath\":\"taskPhotos/315b1ee8-1023-4833-9069-dff8bedceeb8-5fbd2966-9444-47a7-a136-eb2232bf98df.jpg\"}"
+              },
+              {
+                "userID": "320c4533-94e1-4160-998b-c913779f7f65",
+                "jsonResponseString": "{\"type\":\"image\",\"imagePath\":\"taskPhotos/315b1ee8-1023-4833-9069-dff8bedceeb8-320c4533-94e1-4160-998b-c913779f7f65.jpg\"}"
+              },
+              {
+                "userID": "91e87d52-a009-41cb-9bfc-90f3dd960920",
+                "jsonResponseString": "{\"type\":\"image\",\"imagePath\":\"taskPhotos/315b1ee8-1023-4833-9069-dff8bedceeb8-91e87d52-a009-41cb-9bfc-90f3dd960920.jpg\"}"
+              },
+              {
+                "userID": "389aebfe-cff5-49a9-ab6b-5d8a97c49ea9",
+                "jsonResponseString": "{\"type\":\"image\",\"imagePath\":\"taskPhotos/315b1ee8-1023-4833-9069-dff8bedceeb8-389aebfe-cff5-49a9-ab6b-5d8a97c49ea9.jpg\"}"
+              },
+              {
+                "userID": "ecbc3725-dbda-443a-8b2f-b597817a652f",
+                "jsonResponseString": "{\"type\":\"image\",\"imagePath\":\"taskPhotos/315b1ee8-1023-4833-9069-dff8bedceeb8-ecbc3725-dbda-443a-8b2f-b597817a652f.jpg\"}"
+              }
+            ]
+          },
+          {
+            "taskID": "a5f70327-25fa-4c87-83d5-54171919ec1d",
+            "showType": "task",
+            "type": "quiz",
+            "point": 20,
+            "description": "Sigortacılık Quizi",
+            "quiz": {
+              "quizID": "4f5da8d7-f9f2-4b8a-ab52-e7b02ba9f4b8",
+              "questions": [
+                {
+                  "questionID": "e6095e18-0fad-4532-9599-4f0863b0f5c5",
+                  "question": "Sigorta şirketlerinin, sigortalıların beyanını esas olarak poliçe düzenlemelerine ne denir?",
+                  "answer": "ed3b39af-af69-41ac-91eb-7f03ce1c963b",
+                  "failAction": "info",
+                  "options": [
+                    {
+                      "optionKey": "ed3b39af-af69-41ac-91eb-7f03ce1c963b",
+                      "optionKeyText": null,
+                      "optionText": "A) Azami İyi Niyet Prensibi",
+                      "infoOnFail": null
+                    },
+                    {
+                      "optionKey": "1b3c0eaa-c5cd-40cf-9e44-b1abce8b6f63",
+                      "optionKeyText": null,
+                      "optionText": "B) Reasürans",
+                      "infoOnFail": "Bir sigorta ortaklığının, sigorta ettiği miktarın bir bölümünü, ilerde doğabilecek bir zarara karşı, başka bir sigorta ortaklığına yeniden sigorta ettirilmesine Reasürans denir."
+                    },
+                    {
+                      "optionKey": "abad7e76-4b7e-4d5a-8cde-f00f118a0179",
+                      "optionKeyText": null,
+                      "optionText": "C) Hasara Katılım Prensibi",
+                      "infoOnFail": "Hasara Katılım Prensibi; aynı değerin, aynı tehlikelere karşı aynı anda, aynı sigortalı menfaate, ilişkin olarak sigorta ettirilmiş olması halinde devreye girer ve sigortalının zararı için birden çok sigortacıdan tazminat "
+                    },
+                    {
+                      "optionKey": "a83aca3d-a670-499a-9f04-195f133ec9b0",
+                      "optionKeyText": null,
+                      "optionText": "D) Halefiyet",
+                      "infoOnFail": "Aksigorta şirketleri sigortalılarına hasar ödemesi yaptıktan sonra, hasarın oluşmasına neden olan kişiden, bu ödenen hasarın tazmin etmesine Halefiyet denir."
+                    }
+                  ]
+                },
+                {
+                  "questionID": "20e81ef9-e121-427a-a58d-c9c1459fe94d",
+                  "question": "Aşağıdakilerden hangisi sigortanın ekonomik işlevlerinden değildir?",
+                  "answer": "b8e9230b-0bef-4aec-8663-04261577bf0b",
+                  "failAction": "info",
+                  "options": [
+                    {
+                      "optionKey": "6bfa3b9a-053d-48a3-8d2c-aa40b81aa47a",
+                      "optionKeyText": null,
+                      "optionText": "A) Tasarruf kaynağı olması",
+                      "infoOnFail": "Sigorta yaptıran kişiler kendini güvende hissetmesi normalken sigortanın ekonomik işlevleri arasında değildir. Bu konuda daha çok bilgi almak için Aksigorta e-Öğrenme Platformu üzerinden Temel Sigortacılık Eğitimi’ne göz atabilirsin."
+                    },
+                    {
+                      "optionKey": "7a5009a8-4f5a-48ba-a260-c74bdf733a4e",
+                      "optionKeyText": null,
+                      "optionText": "B) Kredi işlemlerinin arttırması",
+                      "infoOnFail": "Sigorta yaptıran kişiler kendini güvende hissetmesi normalken sigortanın ekonomik işlevleri arasında değildir. Bu konuda daha çok bilgi almak için Aksigorta e-Öğrenme Platformu üzerinden Temel Sigortacılık Eğitimi’ne göz atabilirsin."
+                    },
+                    {
+                      "optionKey": "49a3a595-6d73-427d-835c-2a0a18511b8d",
+                      "optionKeyText": null,
+                      "optionText": "C) Zararları bireyler arasında dağıtması",
+                      "infoOnFail": "Sigorta yaptıran kişiler kendini güvende hissetmesi normalken sigortanın ekonomik işlevleri arasında değildir. Bu konuda daha çok bilgi almak için Aksigorta e-Öğrenme Platformu üzerinden Temel Sigortacılık Eğitimi’ne göz atabilirsin."
+                    },
+                    {
+                      "optionKey": "b8e9230b-0bef-4aec-8663-04261577bf0b",
+                      "optionKeyText": null,
+                      "optionText": "D) Sigortalanana güven vermesi",
+                      "infoOnFail": null
+                    }
+                  ]
+                },
+                {
+                  "questionID": "7cbd6930-869c-4f7d-a734-f957d37fff36",
+                  "question": "Verilen teminatın tamamen ya da kısmen üye şirketler tarafından paylaşılması için yapılan düzenlemelere ne denir?",
+                  "answer": "8bf26d97-d7cd-4c1c-9ebf-50ef0aa4f885",
+                  "failAction": "info",
+                  "options": [
+                    {
+                      "optionKey": "8bf26d97-d7cd-4c1c-9ebf-50ef0aa4f885",
+                      "optionKeyText": null,
+                      "optionText": "A) Pool Anlaşması",
+                      "infoOnFail": null
+                    },
+                    {
+                      "optionKey": "7e31f611-6814-4f22-9a99-054d6b5a451c",
+                      "optionKeyText": null,
+                      "optionText": "B) Mühendislik Sigortaları",
+                      "infoOnFail": "Çeşitli makine ve tesisler için vinç, asansör, elektrik donanımı, bilgisayar gibi araçların sigorta güvencesi altına alınmasını sağlayan sigorta türüne Mühendislik Sigortaları denir."
+                    },
+                    {
+                      "optionKey": "eda97e88-39ce-48ef-bd96-b118887aaa1b",
+                      "optionKeyText": null,
+                      "optionText": "C) Hasar Ödemesi",
+                      "infoOnFail": "Bir hasarın karşılanması için, o hasarın poliçede alınmış ve genel veya özel şartlarda belirtilen güvence kapsamına en yakın nedenden ileri gelmesi kuralına Yakın Neden Prensibi denir."
+                    },
+                    {
+                      "optionKey": "47477a96-8840-423c-9eba-7b8cd0cba7e4",
+                      "optionKeyText": null,
+                      "optionText": "D) Yakın Neden Prensibi",
+                      "infoOnFail": "Malın, eşyanın fiziki hasarı veya kişinin bedeni ya da manevi zararlarını ifade eden terime Hasar denir."
+                    }
+                  ]
+                },
+                {
+                  "questionID": "11806bf3-b2bc-468d-8378-41dd0ea88b57",
+                  "question": "Sigorta’da kullanılan belgelerden değildir?",
+                  "answer": "e327bd85-46e9-4ae4-af68-5becb42b0dd2",
+                  "failAction": "info",
+                  "options": [
+                    {
+                      "optionKey": "71252d5e-9754-428f-b355-2e54cde7829d",
+                      "optionKeyText": null,
+                      "optionText": "A) Teklifname",
+                      "infoOnFail": "Tazminat, sigortacının sigortalıya, zararın gerçekleşmesi halinde ödenen miktardır. Sigortada kullanılan belgeler hakkında daha çok bilgi almak için Aksigorta e-Öğrenme Platformu üzerinden Temel Sigortacılık Eğitimi’ne göz atabilirsin."
+                    },
+                    {
+                      "optionKey": "092f413e-f4ea-43d6-aea8-df93b2bd0325",
+                      "optionKeyText": null,
+                      "optionText": "B) Sigorta sözleşmesi",
+                      "infoOnFail": "Tazminat, sigortacının sigortalıya, zararın gerçekleşmesi halinde ödenen miktardır. Sigortada kullanılan belgeler hakkında daha çok bilgi almak için Aksigorta e-Öğrenme Platformu üzerinden Temel Sigortacılık Eğitimi’ne göz atabilirsin."
+                    },
+                    {
+                      "optionKey": "f99fc613-9a25-469d-abec-9a85ae6a5f19",
+                      "optionKeyText": null,
+                      "optionText": "C) zeyilname",
+                      "infoOnFail": "Tazminat, sigortacının sigortalıya, zararın gerçekleşmesi halinde ödenen miktardır. Sigortada kullanılan belgeler hakkında daha çok bilgi almak için Aksigorta e-Öğrenme Platformu üzerinden Temel Sigortacılık Eğitimi’ne göz atabilirsin."
+                    },
+                    {
+                      "optionKey": "e327bd85-46e9-4ae4-af68-5becb42b0dd2",
+                      "optionKeyText": null,
+                      "optionText": "D) tazminat",
+                      "infoOnFail": null
+                    }
+                  ]
+                }
+              ]
+            },
+            "url": null,
+            "users": [
+              {
+                "userID": "320c4533-94e1-4160-998b-c913779f7f65",
+                "jsonResponseString": "{\"type\":\"quiz\",\"answers\":[{\"questionID\":\"e6095e18-0fad-4532-9599-4f0863b0f5c5\",\"optionID\":\"1b3c0eaa-c5cd-40cf-9e44-b1abce8b6f63\"},{\"questionID\":\"20e81ef9-e121-427a-a58d-c9c1459fe94d\",\"optionID\":\"b8e9230b-0bef-4aec-8663-04261577bf0b\"},{\"questionID\":\"7cbd6930-869c-4f7d-a734-f957d37fff36\",\"optionID\":\"8bf26d97-d7cd-4c1c-9ebf-50ef0aa4f885\"},{\"questionID\":\"11806bf3-b2bc-468d-8378-41dd0ea88b57\",\"optionID\":\"71252d5e-9754-428f-b355-2e54cde7829d\"}]}"
+              },
+              {
+                "userID": "5fbd2966-9444-47a7-a136-eb2232bf98df",
+                "jsonResponseString": "{\"type\":\"quiz\",\"answers\":[{\"questionID\":\"e6095e18-0fad-4532-9599-4f0863b0f5c5\",\"optionID\":\"abad7e76-4b7e-4d5a-8cde-f00f118a0179\"},{\"questionID\":\"20e81ef9-e121-427a-a58d-c9c1459fe94d\",\"optionID\":\"b8e9230b-0bef-4aec-8663-04261577bf0b\"},{\"questionID\":\"7cbd6930-869c-4f7d-a734-f957d37fff36\",\"optionID\":\"47477a96-8840-423c-9eba-7b8cd0cba7e4\"},{\"questionID\":\"11806bf3-b2bc-468d-8378-41dd0ea88b57\",\"optionID\":\"e327bd85-46e9-4ae4-af68-5becb42b0dd2\"}]}"
+              },
+              {
+                "userID": "ecbc3725-dbda-443a-8b2f-b597817a652f",
+                "jsonResponseString": "{\"type\":\"quiz\",\"answers\":[{\"questionID\":\"e6095e18-0fad-4532-9599-4f0863b0f5c5\",\"optionID\":\"abad7e76-4b7e-4d5a-8cde-f00f118a0179\"},{\"questionID\":\"20e81ef9-e121-427a-a58d-c9c1459fe94d\",\"optionID\":\"49a3a595-6d73-427d-835c-2a0a18511b8d\"},{\"questionID\":\"7cbd6930-869c-4f7d-a734-f957d37fff36\",\"optionID\":\"eda97e88-39ce-48ef-bd96-b118887aaa1b\"},{\"questionID\":\"11806bf3-b2bc-468d-8378-41dd0ea88b57\",\"optionID\":\"f99fc613-9a25-469d-abec-9a85ae6a5f19\"}]}"
+              },
+              {
+                "userID": "389aebfe-cff5-49a9-ab6b-5d8a97c49ea9",
+                "jsonResponseString": "{\"type\":\"quiz\",\"answers\":[{\"questionID\":\"e6095e18-0fad-4532-9599-4f0863b0f5c5\",\"optionID\":\"abad7e76-4b7e-4d5a-8cde-f00f118a0179\"},{\"questionID\":\"20e81ef9-e121-427a-a58d-c9c1459fe94d\",\"optionID\":\"b8e9230b-0bef-4aec-8663-04261577bf0b\"},{\"questionID\":\"7cbd6930-869c-4f7d-a734-f957d37fff36\",\"optionID\":\"7e31f611-6814-4f22-9a99-054d6b5a451c\"},{\"questionID\":\"11806bf3-b2bc-468d-8378-41dd0ea88b57\",\"optionID\":\"e327bd85-46e9-4ae4-af68-5becb42b0dd2\"}]}"
+              },
+              {
+                "userID": "91e87d52-a009-41cb-9bfc-90f3dd960920",
+                "jsonResponseString": "{\"type\":\"quiz\",\"answers\":[{\"questionID\":\"e6095e18-0fad-4532-9599-4f0863b0f5c5\",\"optionID\":\"a83aca3d-a670-499a-9f04-195f133ec9b0\"},{\"questionID\":\"20e81ef9-e121-427a-a58d-c9c1459fe94d\",\"optionID\":\"b8e9230b-0bef-4aec-8663-04261577bf0b\"},{\"questionID\":\"7cbd6930-869c-4f7d-a734-f957d37fff36\",\"optionID\":\"47477a96-8840-423c-9eba-7b8cd0cba7e4\"},{\"questionID\":\"11806bf3-b2bc-468d-8378-41dd0ea88b57\",\"optionID\":\"e327bd85-46e9-4ae4-af68-5becb42b0dd2\"}]}"
+              }
+            ]
+          },
+          {
+            "taskID": "5242781e-f1f0-47cb-9979-4426a03cc8c6",
+            "showType": "info",
+            "type": "info",
+            "point": 0,
+            "description": "Aksigorta Mate’inden senin için gerekli JIRA kayıtlarını açmasını rica etmeyi unutma.",
+            "quiz": null,
+            "url": null,
+            "users": []
+          },
+          {
+            "taskID": "93a90ac2-b79c-4f6a-bc6d-bc98b023fec4",
+            "showType": "info",
+            "type": "info",
+            "point": 0,
+            "description": "Tebrikler! İlk haftan neredeyse bitiyor, yarın görüşürüz.",
+            "quiz": null,
+            "url": null,
+            "users": []
+          }
+        ]
+      },
+      {
+        "name": "5. Gün",
+        "day": 5,
+        "tasks": [
+          {
+            "taskID": "f2a26dbc-1a31-4126-80b4-dc320f6b226b",
+            "showType": "info",
+            "type": "info",
+            "point": 0,
+            "description": "Sevgili Aksigortalı, sen aramıza katılalı neredeyse 1 hafta oldu bile. Haftanın son görevlerini tamamla ve puanları topla!",
+            "quiz": null,
+            "url": null,
+            "users": []
+          },
+          {
+            "taskID": "1fda13ef-204c-4fc7-b210-92078ec97b69",
+            "showType": "task",
+            "type": "uploadImage",
+            "point": 20,
+            "description": "Oryantasyon programında tanıştığın Aksigortalılara Nabız’dan geri bildirim ver. Gelişim Diyalogları eğitiminden öğrendiklerimizden yola çıkarak verdiğin geri bildirimlerden birinin fotoğrafını yükle.",
+            "quiz": null,
+            "url": null,
+            "users": [
+              {
+                "userID": "320c4533-94e1-4160-998b-c913779f7f65",
+                "jsonResponseString": "{\"type\":\"image\",\"imagePath\":\"taskPhotos/1fda13ef-204c-4fc7-b210-92078ec97b69-320c4533-94e1-4160-998b-c913779f7f65.jpg\"}"
+              },
+              {
+                "userID": "389aebfe-cff5-49a9-ab6b-5d8a97c49ea9",
+                "jsonResponseString": "{\"type\":\"image\",\"imagePath\":\"taskPhotos/1fda13ef-204c-4fc7-b210-92078ec97b69-389aebfe-cff5-49a9-ab6b-5d8a97c49ea9.jpg\"}"
+              },
+              {
+                "userID": "ecbc3725-dbda-443a-8b2f-b597817a652f",
+                "jsonResponseString": "{\"type\":\"image\",\"imagePath\":\"taskPhotos/1fda13ef-204c-4fc7-b210-92078ec97b69-ecbc3725-dbda-443a-8b2f-b597817a652f.jpg\"}"
+              }
+            ]
+          },
+          {
+            "taskID": "2424ff12-e112-42fc-9e78-2470c4bebd4b",
+            "showType": "task",
+            "type": "quiz",
+            "point": 0,
+            "description": "Aksigorta’daki ilk haftani nasil degerlendirirsin? Bir emoji birak.",
+            "quiz": {
+              "quizID": "2cb2e82b-7510-4dcd-a4a8-ba516da6388f",
+              "questions": [
+                {
+                  "questionID": "4c604293-d293-466f-959e-0eb391a500b9",
+                  "question": "Aksigorta’daki ilk haftanı nasıl değerlendirirsin? Bir emoji bırak.",
+                  "answer": "00000000-0000-0000-0000-000000000000",
+                  "failAction": "info",
+                  "options": [
+                    {
+                      "optionKey": "3f568645-54bd-4140-a16f-70a7eeee32eb",
+                      "optionKeyText": null,
+                      "optionText": "😀",
+                      "infoOnFail": ""
+                    },
+                    {
+                      "optionKey": "87296211-69e6-4c4a-8f83-b4b356696847",
+                      "optionKeyText": null,
+                      "optionText": "🙂",
+                      "infoOnFail": ""
+                    },
+                    {
+                      "optionKey": "29e3b7c4-e946-4468-8ba0-32d888969080",
+                      "optionKeyText": null,
+                      "optionText": "😐",
+                      "infoOnFail": ""
+                    },
+                    {
+                      "optionKey": "debf6ab1-327c-4252-8937-86c39b22c59a",
+                      "optionKeyText": null,
+                      "optionText": "🙁",
+                      "infoOnFail": ""
+                    },
+                    {
+                      "optionKey": "5689d0ed-0d3e-4bb3-be1d-9fcc34954139",
+                      "optionKeyText": null,
+                      "optionText": "☹️",
+                      "infoOnFail": ""
+                    }
+                  ]
+                }
+              ]
+            },
+            "url": null,
+            "users": [
+              {
+                "userID": "320c4533-94e1-4160-998b-c913779f7f65",
+                "jsonResponseString": "{\"type\":\"quiz\",\"answers\":[{\"questionID\":\"4c604293-d293-466f-959e-0eb391a500b9\",\"optionID\":\"3f568645-54bd-4140-a16f-70a7eeee32eb\"}]}"
+              },
+              {
+                "userID": "389aebfe-cff5-49a9-ab6b-5d8a97c49ea9",
+                "jsonResponseString": "{\"type\":\"quiz\",\"answers\":[{\"questionID\":\"4c604293-d293-466f-959e-0eb391a500b9\",\"optionID\":\"5689d0ed-0d3e-4bb3-be1d-9fcc34954139\"}]}"
+              },
+              {
+                "userID": "ecbc3725-dbda-443a-8b2f-b597817a652f",
+                "jsonResponseString": "{\"type\":\"quiz\",\"answers\":[{\"questionID\":\"4c604293-d293-466f-959e-0eb391a500b9\",\"optionID\":\"debf6ab1-327c-4252-8937-86c39b22c59a\"}]}"
+              }
+            ]
+          },
+          {
+            "taskID": "6c83083b-d113-4824-b412-533ec4240a6b",
+            "showType": "info",
+            "type": "info",
+            "point": 0,
+            "description": "Sevgili Aksigortalı, sen aramıza katılalı bir haftayı devirdik bile. Şimdilik sana güzel bir hafta sonu diliyoruz.",
+            "quiz": null,
+            "url": null,
+            "users": []
+          }
+        ]
+      },
+      {
+        "name": "8. Gün",
+        "day": 8,
+        "tasks": [
+          {
+            "taskID": "f7c2c739-f315-410f-b59a-a31f1b700ccc",
+            "showType": "info",
+            "type": "info",
+            "point": 0,
+            "description": "İkinci haftana başlarken sıradaki görevlerini takip etmeyi unutma.",
+            "quiz": null,
+            "url": null,
+            "users": []
+          },
+          {
+            "taskID": "b1d7c877-b023-47af-a027-58ca0140bd76",
+            "showType": "task",
+            "type": "uploadImage",
+            "point": 15,
+            "description": "Ekip toplantından bir fotoğraf yükle.",
+            "quiz": null,
+            "url": null,
+            "users": [
+              {
+                "userID": "389aebfe-cff5-49a9-ab6b-5d8a97c49ea9",
+                "jsonResponseString": "{\"type\":\"image\",\"imagePath\":\"taskPhotos/b1d7c877-b023-47af-a027-58ca0140bd76-389aebfe-cff5-49a9-ab6b-5d8a97c49ea9.jpg\"}"
+              }
+            ]
+          },
+          {
+            "taskID": "5bb23429-b90a-46e6-b00a-b56ecd884211",
+            "showType": "question",
+            "type": "quiz",
+            "point": 5,
+            "description": "Aksigortalilara sunulan egitim firsatlari hakkinda daha fazla bilgiyi kimden alabilecegini biliyor musun?",
+            "quiz": {
+              "quizID": "f0ff563d-66e2-49b1-918c-97686477ea87",
+              "questions": [
+                {
+                  "questionID": "6ca0852c-d33f-4678-a9d9-dba9656d514b",
+                  "question": "Aksigortalılara sunulan eğitim fırsatları hakkında daha fazla bilgiyi kimden alabileceğini biliyor musun?",
+                  "answer": "91310ecd-4e96-44ef-b460-9405dea2193d",
+                  "failAction": "info",
+                  "options": [
+                    {
+                      "optionKey": "91310ecd-4e96-44ef-b460-9405dea2193d",
+                      "optionKeyText": null,
+                      "optionText": "Evet",
+                      "infoOnFail": null
+                    },
+                    {
+                      "optionKey": "f23e35df-cb3b-41a2-95bc-a520c244cdf6",
+                      "optionKeyText": null,
+                      "optionText": "Hayır",
+                      "infoOnFail": "Gökhan Eskizengin ve Elif Meltem Şahin"
+                    }
+                  ]
+                }
+              ]
+            },
+            "url": null,
+            "users": [
+              {
+                "userID": "389aebfe-cff5-49a9-ab6b-5d8a97c49ea9",
+                "jsonResponseString": "{\"type\":\"quiz\",\"answers\":[{\"questionID\":\"6ca0852c-d33f-4678-a9d9-dba9656d514b\",\"optionID\":\"f23e35df-cb3b-41a2-95bc-a520c244cdf6\"}]}"
+              }
+            ]
+          },
+          {
+            "taskID": "3472b99e-b924-4871-85ad-a1a33b89f2f1",
+            "showType": "info",
+            "type": "info",
+            "point": 0,
+            "description": "İkinci haftana da bomba gibi başladın. Yarınki görevlerin için kontrol etmeyi unutma.",
+            "quiz": null,
+            "url": null,
+            "users": []
+          }
+        ]
+      },
+      {
+        "name": "9. Gün",
+        "day": 9,
+        "tasks": [
+          {
+            "taskID": "2cbca7d3-603c-4b47-bb47-029e9b59de61",
+            "showType": "info",
+            "type": "info",
+            "point": 0,
+            "description": "Bugünün görevlerini kontrol etmeyi unutma!",
+            "quiz": null,
+            "url": null,
+            "users": []
+          },
+          {
+            "taskID": "a28516b4-b268-435b-ab7e-8b8379d4d4d3",
+            "showType": "task",
+            "type": "freetext",
+            "point": 15,
+            "description": "Sabancı İş Etiği Kurallarına uygun davranmak, tüm Sabancı Topluluğu çalışanları olarak başkasına delege edemeyeceğimiz en önemli sorumluluğumuzdur. Hesabına tanımlanan SA- Etik Eğitimini tamamla ve Aksigorta’nın etik sorumlusunun adını gir.",
+            "quiz": null,
+            "url": null,
+            "users": [
+              {
+                "userID": "389aebfe-cff5-49a9-ab6b-5d8a97c49ea9",
+                "jsonResponseString": "{\"type\":\"image\",\"answer\":\"aghhshdjd\"}"
+              },
+              {
+                "userID": "389aebfe-cff5-49a9-ab6b-5d8a97c49ea9",
+                "jsonResponseString": "{\"type\":\"image\",\"answer\":\"ggjgbk\"}"
+              }
+            ]
+          },
+          {
+            "taskID": "f3ae3f5d-3609-4559-ba33-cad59389ddef",
+            "showType": "question",
+            "type": "quiz",
+            "point": 10,
+            "description": "Aksigortalilarin çalisma degerleri nelerdir?",
+            "quiz": {
+              "quizID": "284e66b4-be12-437d-92b2-5d8c3b8136f0",
+              "questions": [
+                {
+                  "questionID": "ff3ad1b3-936b-4ad1-9fec-b3e7970e5baa",
+                  "question": "Aksigortalıların çalışma değerleri nelerdir?",
+                  "answer": "fb85d577-5529-44c8-9e09-765ee2962465",
+                  "failAction": "info",
+                  "options": [
+                    {
+                      "optionKey": "95a2283f-f713-4864-b25d-2826988380b3",
+                      "optionKeyText": null,
+                      "optionText": "A) Sonuç Odaklılık",
+                      "infoOnFail": "Hepsi"
+                    },
+                    {
+                      "optionKey": "66227a66-a695-4203-aa87-b9e7fb6d32d3",
+                      "optionKeyText": null,
+                      "optionText": "B) Sürekli Gelişim",
+                      "infoOnFail": "Hepsi"
+                    },
+                    {
+                      "optionKey": "b6b47f0f-05c4-47a5-b0f3-0c70f97fc848",
+                      "optionKeyText": null,
+                      "optionText": "C) İş Birliği",
+                      "infoOnFail": "Hepsi"
+                    },
+                    {
+                      "optionKey": "fb85d577-5529-44c8-9e09-765ee2962465",
+                      "optionKeyText": null,
+                      "optionText": "D) Hepsi",
+                      "infoOnFail": null
+                    }
+                  ]
+                }
+              ]
+            },
+            "url": null,
+            "users": [
+              {
+                "userID": "389aebfe-cff5-49a9-ab6b-5d8a97c49ea9",
+                "jsonResponseString": "{\"type\":\"quiz\",\"answers\":[{\"questionID\":\"ff3ad1b3-936b-4ad1-9fec-b3e7970e5baa\",\"optionID\":\"fb85d577-5529-44c8-9e09-765ee2962465\"}]}"
+              }
+            ]
+          },
+          {
+            "taskID": "ade3a2f7-0fc1-483f-b997-5509dc6de41d",
+            "showType": "question",
+            "type": "freetext",
+            "point": 15,
+            "description": "Bölüm müdüründen bölümünün ve departmanının hedef ve stratejisini öğrenerek bizimle paylaşır mısın?",
+            "quiz": null,
+            "url": null,
+            "users": [
+              {
+                "userID": "389aebfe-cff5-49a9-ab6b-5d8a97c49ea9",
+                "jsonResponseString": "{\"type\":\"image\",\"answer\":\"jnjkgduvk\"}"
+              }
+            ]
+          },
+          {
+            "taskID": "9a8edea1-ba58-404b-b4b3-3a5af53399c9",
+            "showType": "info",
+            "type": "info",
+            "point": 0,
+            "description": "Sevgili Aksigortalı, ödüle bir adım daha yaklaştın.",
+            "quiz": null,
+            "url": null,
+            "users": []
+          }
+        ]
+      },
+      {
+        "name": "10. Gün",
+        "day": 10,
+        "tasks": [
+          {
+            "taskID": "e3d0c73f-eed7-44c1-9992-d9a3c1c18b25",
+            "showType": "info",
+            "type": "info",
+            "point": 0,
+            "description": "Aramıza resmi olarak katılmanın bugün 10. Günü! Bugüne özel görevleri tamamla",
+            "quiz": null,
+            "url": null,
+            "users": []
+          },
+          {
+            "taskID": "b41cf89b-76d3-4f12-b707-f46b359261e5",
+            "showType": "task",
+            "type": "freetext",
+            "point": 10,
+            "description": "Aksigorta platform liderleriyle tanış. Platformların amacını öğren ve birini bizimle paylaş.",
+            "quiz": null,
+            "url": null,
+            "users": [
+              {
+                "userID": "389aebfe-cff5-49a9-ab6b-5d8a97c49ea9",
+                "jsonResponseString": "{\"type\":\"image\",\"answer\":\"hivkbkbudk\"}"
+              }
+            ]
+          },
+          {
+            "taskID": "d5de4fed-f086-4048-a8ff-bfca9def3586",
+            "showType": "task",
+            "type": "quiz",
+            "point": 5,
+            "description": "Aksigorta e-Öğrenme Platformu’nu inceledin mi?",
+            "quiz": {
+              "quizID": "ab0c16fb-d2a8-4e57-b2b8-549c210782f6",
+              "questions": [
+                {
+                  "questionID": "9356e557-5941-4264-a968-6210aa6211e6",
+                  "question": "Aksigorta e-Öğrenme Platformu’nu inceledin mi?",
+                  "answer": "9286da19-05fa-4ba1-815c-00f162c7bba1",
+                  "failAction": "openURL",
+                  "options": [
+                    {
+                      "optionKey": "9286da19-05fa-4ba1-815c-00f162c7bba1",
+                      "optionKeyText": null,
+                      "optionText": "Evet",
+                      "infoOnFail": null
+                    },
+                    {
+                      "optionKey": "ea074787-2660-4099-b551-682d1e2008c6",
+                      "optionKeyText": null,
+                      "optionText": "Hayır",
+                      "infoOnFail": "https://aksigorta.myenocta.com/"
+                    }
+                  ]
+                }
+              ]
+            },
+            "url": null,
+            "users": [
+              {
+                "userID": "389aebfe-cff5-49a9-ab6b-5d8a97c49ea9",
+                "jsonResponseString": "{\"type\":\"quiz\",\"answers\":[{\"questionID\":\"9356e557-5941-4264-a968-6210aa6211e6\",\"optionID\":\"9286da19-05fa-4ba1-815c-00f162c7bba1\"}]}"
+              }
+            ]
+          },
+          {
+            "taskID": "35ee579c-d1bf-4051-804e-14d7fc12c940",
+            "showType": "task",
+            "type": "uploadImage",
+            "point": 0,
+            "description": "Aksigorta Mate’in ile buluşmanızdan bir fotoğraf paylaş.",
+            "quiz": null,
+            "url": null,
+            "users": [
+              {
+                "userID": "389aebfe-cff5-49a9-ab6b-5d8a97c49ea9",
+                "jsonResponseString": "{\"type\":\"image\",\"imagePath\":\"taskPhotos/35ee579c-d1bf-4051-804e-14d7fc12c940-389aebfe-cff5-49a9-ab6b-5d8a97c49ea9.jpg\"}"
+              }
+            ]
+          },
+          {
+            "taskID": "b74041a3-9ed1-435a-90f7-b68c96802584",
+            "showType": "info",
+            "type": "info",
+            "point": 0,
+            "description": "Bugünkü görevlerin bu kadar, yarın görüşürüz.",
+            "quiz": null,
+            "url": null,
+            "users": []
+          }
+        ]
+      },
+      {
+        "name": "11. Gün",
+        "day": 11,
+        "tasks": [
+          {
+            "taskID": "74a579a4-56c9-4c86-94fc-aee31cf62dcb",
+            "showType": "info",
+            "type": "info",
+            "point": 0,
+            "description": "Sevgili Aksigortalı, ödüle bir adım daha yaklaştırmak için görevlerini tamamla!",
+            "quiz": null,
+            "url": null,
+            "users": []
+          },
+          {
+            "taskID": "289ffb22-8d00-463c-befd-6eda4629a905",
+            "showType": "task",
+            "type": "freetext",
+            "point": 5,
+            "description": "Oryantasyon programının değerlendirme anketini doldurmayı unutma. Geri bildirimin bizim için çok kıymetli. En çok verdiğin puanı yaz.",
+            "quiz": null,
+            "url": null,
+            "users": [
+              {
+                "userID": "389aebfe-cff5-49a9-ab6b-5d8a97c49ea9",
+                "jsonResponseString": "{\"type\":\"image\",\"answer\":\"igig\"}"
+              }
+            ]
+          },
+          {
+            "taskID": "2518b2b0-2584-4c0a-addc-bb07bc4ed9bf",
+            "showType": "info",
+            "type": "info",
+            "point": 0,
+            "description": "Aksigorta stratejisi ve stratejik önceliklerini hatırlayalım:\nMüşteriyi işimizin merkezine koyarız\nHer zaman, her yerde erişilebiliriz\nİş modelimizi gelişen teknolojiye adapte ederiz\nYeniden öğrenen ve keşfeden bir organizasyon yaratırız.\nÖncelikler:\nMüşteri Odaklılık \t İnovasyon                     Analitik\t                Dijital\t                 Yeni Teknolojiler",
+            "quiz": null,
+            "url": null,
+            "users": []
+          },
+          {
+            "taskID": "4810537a-f22a-4244-82fb-8e9aafbdf1fb",
+            "showType": "info",
+            "type": "info",
+            "point": 0,
+            "description": "İkinci hafta neredeyse bitiyor, haftanın son iş gününde de görevlerini kontrol etmeyi unutma.",
+            "quiz": null,
+            "url": null,
+            "users": []
+          }
+        ]
+      },
+      {
+        "name": "12. Gün",
+        "day": 12,
+        "tasks": [
+          {
+            "taskID": "9435090d-d948-4e7a-b530-b52166a8ebe1",
+            "showType": "info",
+            "type": "info",
+            "point": 0,
+            "description": "Bugün 2. haftanın son görevlerini tamamlamayı unutma! :)",
+            "quiz": null,
+            "url": null,
+            "users": []
+          },
+          {
+            "taskID": "6f9ce41f-6fc0-42ee-afdf-a5c55f84f38e",
+            "showType": "question",
+            "type": "freetext",
+            "point": 15,
+            "description": "Aksigorta’da üstlendiğin ilk görev ne oldu?",
+            "quiz": null,
+            "url": null,
+            "users": [
+              {
+                "userID": "389aebfe-cff5-49a9-ab6b-5d8a97c49ea9",
+                "jsonResponseString": "{\"type\":\"image\",\"answer\":\"bcohclnclj\"}"
+              }
+            ]
+          },
+          {
+            "taskID": "79c09dc9-d2a9-4af2-af76-7673bc466065",
+            "showType": "task",
+            "type": "uploadImage",
+            "point": 10,
+            "description": "Mate’inden seni en renkli bulduğu Aksigortalı ile tanıştırmasını iste ve bu buluşmadan fotoğraf paylaş.",
+            "quiz": null,
+            "url": null,
+            "users": [
+              {
+                "userID": "389aebfe-cff5-49a9-ab6b-5d8a97c49ea9",
+                "jsonResponseString": "{\"type\":\"image\",\"imagePath\":\"taskPhotos/79c09dc9-d2a9-4af2-af76-7673bc466065-389aebfe-cff5-49a9-ab6b-5d8a97c49ea9.jpg\"}"
+              }
+            ]
+          },
+          {
+            "taskID": "092258e9-e1ad-444f-89ff-33fbce55e622",
+            "showType": "info",
+            "type": "info",
+            "point": 0,
+            "description": "Tebrikler! İlk 2 haftanı tamamladın, ödülüne ulaşmana çok az kaldı.",
+            "quiz": null,
+            "url": null,
+            "users": []
+          }
+        ]
+      },
+      {
+        "name": "15. Gün",
+        "day": 15,
+        "tasks": [
+          {
+            "taskID": "1bc80a8b-0742-49fa-9f28-93e6b9ce96fc",
+            "showType": "info",
+            "type": "info",
+            "point": 0,
+            "description": "Aramıza katılmanın 3. Haftasına başladık. Umarız yolculuğun keyifli geçiyordur. Bildirimlerini kontrol etmeyi ihmal etme.",
+            "quiz": null,
+            "url": null,
+            "users": []
+          },
+          {
+            "taskID": "0b495f68-1d0b-48ba-807b-346eea1009c3",
+            "showType": "task",
+            "type": "freetext",
+            "point": 15,
+            "description": "Bağlı olduğun genel müdür yardımcısı ile henüz görüşemediysen bire bir toplantı organize et. Ne zaman görüşeceğini veya daha öncesinde görüştüysen ne zaman görüştüğünü yaz. ",
+            "quiz": null,
+            "url": null,
+            "users": [
+              {
+                "userID": "389aebfe-cff5-49a9-ab6b-5d8a97c49ea9",
+                "jsonResponseString": "{\"type\":\"image\",\"answer\":\"cohcohc8td\"}"
+              }
+            ]
+          },
+          {
+            "taskID": "2f53e603-6ae4-4f4d-a5f7-033ddaadc472",
+            "showType": "task",
+            "type": "freetext",
+            "point": 5,
+            "description": "Aksigorta’nın geçmişi hangi yıla uzanıyor?",
+            "quiz": null,
+            "url": null,
+            "users": [
+              {
+                "userID": "389aebfe-cff5-49a9-ab6b-5d8a97c49ea9",
+                "jsonResponseString": "{\"type\":\"image\",\"answer\":\"uugui\"}"
+              }
+            ]
+          },
+          {
+            "taskID": "f248bd84-a31c-458f-a20c-fd85a4159c61",
+            "showType": "info",
+            "type": "info",
+            "point": 0,
+            "description": "Aramıza katılmanın 3. Haftasına başladık. Umarız yolculuğun keyifli geçiyordur. Bildirimlerini kontrol etmeyi ihmal etme.",
+            "quiz": null,
+            "url": null,
+            "users": []
+          }
+        ]
+      },
+      {
+        "name": "17. Gün",
+        "day": 17,
+        "tasks": [
+          {
+            "taskID": "4afe086c-9799-4abe-90a3-9422b0900d5f",
+            "showType": "question",
+            "type": "freetext",
+            "point": 10,
+            "description": "Aksigorta’nın stratejik önceliklerinden birini yaz.",
+            "quiz": null,
+            "url": null,
+            "users": [
+              {
+                "userID": "389aebfe-cff5-49a9-ab6b-5d8a97c49ea9",
+                "jsonResponseString": "{\"type\":\"image\",\"answer\":\"chgih\"}"
+              }
+            ]
+          },
+          {
+            "taskID": "625318c6-0d92-4689-8f66-13772c374131",
+            "showType": "task",
+            "type": "freetext",
+            "point": 5,
+            "description": "Sürekli Gelişim, İş Birliği ve ?",
+            "quiz": null,
+            "url": null,
+            "users": [
+              {
+                "userID": "389aebfe-cff5-49a9-ab6b-5d8a97c49ea9",
+                "jsonResponseString": "{\"type\":\"image\",\"answer\":\"jvjfirm  jbi\"}"
+              }
+            ]
+          },
+          {
+            "taskID": "a7f54acb-b501-4576-970e-a034bf95c59a",
+            "showType": "task",
+            "type": "uploadImage",
+            "point": 0,
+            "description": "Aksigorta Mate’ine Nabız’dan geri bildirim ver ve ekran görüntüsünü bizimle paylaş.",
+            "quiz": null,
+            "url": null,
+            "users": [
+              {
+                "userID": "389aebfe-cff5-49a9-ab6b-5d8a97c49ea9",
+                "jsonResponseString": "{\"type\":\"image\",\"imagePath\":\"taskPhotos/a7f54acb-b501-4576-970e-a034bf95c59a-389aebfe-cff5-49a9-ab6b-5d8a97c49ea9.jpg\"}"
+              }
+            ]
+          },
+          {
+            "taskID": "7d212b5a-ac6e-4f4e-8332-e3a3338839a9",
+            "showType": "info",
+            "type": "info",
+            "point": 0,
+            "description": "Explore the Next oyununun sonuna yaklaşırken, ödülüne çok az kaldı! Bugünün görevlerini kontrol etmeyi unutma.",
+            "quiz": null,
+            "url": null,
+            "users": []
+          }
+        ]
+      },
+      {
+        "name": "19. Gün",
+        "day": 19,
+        "tasks": [
+          {
+            "taskID": "0cb78b86-d8f9-471c-b744-958b555ab78f",
+            "showType": "info",
+            "type": "info",
+            "point": 0,
+            "description": "Tebrikler! İlk 3 haftanı neredeyse tamamladın, bu süreçte kazandığın puanları Nabız üzerinden harcayarak dilediğin ödülü alabilirsin.",
+            "quiz": null,
+            "url": null,
+            "users": []
+          },
+          {
+            "taskID": "30d84f39-769c-478c-8d57-db2c8534ea7d",
+            "showType": "task",
+            "type": "uploadImage",
+            "point": 30,
+            "description": "Ekip dışından 3 kişi ile tanış ve buluşmanızdan fotoğraf yükle.",
+            "quiz": null,
+            "url": null,
+            "users": [
+              {
+                "userID": "389aebfe-cff5-49a9-ab6b-5d8a97c49ea9",
+                "jsonResponseString": "{\"type\":\"image\",\"imagePath\":\"taskPhotos/30d84f39-769c-478c-8d57-db2c8534ea7d-389aebfe-cff5-49a9-ab6b-5d8a97c49ea9.jpg\"}"
+              },
+              {
+                "userID": "389aebfe-cff5-49a9-ab6b-5d8a97c49ea9",
+                "jsonResponseString": "{\"type\":\"image\",\"imagePath\":\"taskPhotos/30d84f39-769c-478c-8d57-db2c8534ea7d-389aebfe-cff5-49a9-ab6b-5d8a97c49ea9.jpg\"}"
+              }
+            ]
+          },
+          {
+            "taskID": "6e7ca3bc-2409-4bab-8ec0-fba7146b1a37",
+            "showType": "info",
+            "type": "info",
+            "point": 0,
+            "description": "Aramıza tekrar hoş geldin! Explore The Next oyununu başarıyla tamamladın!",
+            "quiz": null,
+            "url": null,
+            "users": []
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,74 @@
+.swal2-popup {
+  font-size: 1.3rem !important;
+}
+
+.select2-container {
+  width: 100% !important;
+}
+
+html,
+body {
+  height: 100% !important;
+}
+
+.skin-red .wrapper {
+  background-color: rgb(236, 240, 245) !important;
+}
+
+.select2-container--default .select2-selection--multiple {
+  border-radius: 0 !important;
+  border: 1px solid #d2d6de !important;
+}
+
+body .ui-selectbutton .ui-button.ui-state-active {
+  background-color: #e91224 !important;
+  border-color: #e91224 !important;
+}
+
+body .ui-paginator .ui-paginator-pages .ui-paginator-page.ui-state-active {
+  background-color: #e91224 !important;
+}
+
+.skin-red .main-header .logo {
+  background-color: #ffffff !important;
+  color: #000000 !important;
+}
+
+.btn-danger {
+  background-color: #e91224 !important;
+  border-color: #e91224 !important;
+}
+
+.btn-danger:hover {
+  background-color: #e91224 !important;
+}
+
+.form-control:focus {
+  border-color: #e91224 !important;
+}
+
+body .ui-dataview .ui-dataview-content {
+  padding: 0.571em 0em !important;
+}
+
+.dt-buttons {
+  margin-bottom: 10px !important;
+}
+
+.pagination > .active > a,
+.pagination > .active > span,
+.pagination > .active > a:hover,
+.pagination > .active > span:hover,
+.pagination > .active > a:focus,
+.pagination > .active > span:focus {
+  background-color: #dd4b39 !important;
+  border-color: #dd4b39 !important;
+}
+
+.dropdown-menu > li > a {
+  cursor: pointer;
+}
+
+.p-carousel .p-carousel-indicators .p-carousel-indicator.p-highlight button {
+  background-color: #e91224 !important;
+}

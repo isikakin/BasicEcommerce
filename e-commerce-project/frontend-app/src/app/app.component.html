@@ -1,0 +1,10 @@
+<div class="wrapper" style="background-color: #ecf0f5 !important">
+  <app-navbar *ngIf="isAuthenticated"></app-navbar>
+  <app-sidebar *ngIf="isAuthenticated"></app-sidebar>
+
+  <div [ngClass]="{'content-wrapper': isAuthenticated, 'wrapper':!isAuthenticated}">
+    <router-outlet></router-outlet>
+  </div>
+
+  <app-footer *ngIf="isAuthenticated"></app-footer>
+</div>

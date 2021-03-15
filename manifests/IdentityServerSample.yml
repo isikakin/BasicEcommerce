@@ -1,0 +1,54 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: identity
+spec:
+  selector:
+    matchLabels:
+      app: identity
+  template:
+    metadata:
+      labels:
+        app: identity
+    spec:
+      containers:
+      - name: identity
+        image: ${containerRegistry}/${imageRepository}:identity-${tag}
+        resources:
+          limits:
+            memory: "128Mi"
+            cpu: "250m"
+        ports:
+        - containerPort: 5000
+        imagePullPolicy: Always
+      imagePullSecrets:
+      - name: ${imagePullSecret}
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: identity-svc
+spec:
+  selector:
+    app: identity
+  ports:
+  - port: 80
+    targetPort: 5000
+  type: ClusterIP
+---
+apiVersion: networking.k8s.io/v1
+kind: Ingress
+metadata:
+  name: identity-ingress
+spec:
+  rules:
+  - host: "identity.akinisik.com"
+    http:
+      paths:
+      - pathType: Prefix
+        path: "/"
+        backend:
+          service:
+            name: identity-svc
+            port:
+              number: 80

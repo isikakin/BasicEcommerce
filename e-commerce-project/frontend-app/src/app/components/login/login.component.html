@@ -1,0 +1,25 @@
+<div class="login-box">
+  <div class="login-logo">
+    <span class="logo-lg">
+      <img src="assets/img/logo.png" width="250" height="auto">
+    </span>
+  </div>
+  <div class="card" style="height: 100% !important;">
+    <div class="card-body login-card-body">
+      <div class="form-group has-feedback">
+        <label>Kullanıcı Adı</label>
+        <input type="text" class="form-control" [(ngModel)]="username" required>
+        <span class="fa fa-user form-control-feedback"></span>
+      </div>
+      <div class="form-group has-feedback">
+        <label>Parola</label>
+        <input type="password" class="form-control" [(ngModel)]="password" required>
+        <span class="fa fa-lock form-control-feedback"></span>
+      </div>
+      <div class="form-group has-feedback">
+        <button class="btn btn-danger btn-block btn-flat" (click)="login()">Giriş Yap</button>
+      </div>
+    </div>
+  </div>
+</div>
+<ngx-spinner></ngx-spinner>

@@ -1,0 +1,83 @@
+<section class="content-header">
+  <h1>Ürün Detayı
+    <small>Ürün detayına buradan ulaşabilirsiniz.</small>
+  </h1>
+</section>
+<div class="content">
+  <div class="row">
+    <div class="col-xs-12">
+      <div class="box box-danger">
+        <div class="box-header">
+          <h3 class="box-title">Ürün Detayı</h3>
+        </div>
+        <div class="box-body">
+          <div class="form-horizontal" *ngIf="!loading">
+
+            <div class="form-group">
+              <label class="col-sm-2 control-label">Ürün Resmi</label>
+              <div class="col-sm-10">
+                <p-carousel [value]="product.productImages" [numVisible]="3" [numScroll]="3" [circular]="false" [responsiveOptions]="responsiveOptions" *ngIf="product.productImages.length > 0">
+                  <ng-template let-image pTemplate="item">
+                    <div class="product-item">
+                      <div class="product-item-content">
+                        <div class="p-mb-3">
+                          <img src="{{image.url}}" class="product-image" />
+                        </div>
+                        <div>
+                          <div class="car-buttons p-mt-5">
+                            <button type="button" class="p-button p-button-rounded p-mr-2" *ngIf="isAuthenticated" (click)="deleteProductImage(image.id)">Sil</button>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </ng-template>
+                </p-carousel>
+                <input *ngIf="product.productImages.length == 0" type="text" class="form-control" value="Ürün resmi bulunmamaktadır." disabled>
+
+                <input type="file" id="filePicker" accept=".jpg" *ngIf="isAuthenticated" (change)="handleFileSelect($event)">
+
+              </div>
+
+            </div>
+
+            <div class="form-group">
+              <label class="col-sm-2 control-label">Ürün Adı</label>
+              <div class="col-sm-10">
+                <input type="text" class="form-control" value="{{product.name}}" [(ngModel)]="product.name" [disabled]="!isAuthenticated">
+              </div>
+            </div>
+
+            <div class="form-group">
+              <label class="col-sm-2 control-label">Ürün Açıklaması</label>
+              <div class="col-sm-10">
+                <input type="text" class="form-control" value="{{product.description}}" [(ngModel)]="product.description" [disabled]="!isAuthenticated">
+              </div>
+            </div>
+
+            <div class="form-group">
+              <label class="col-sm-2 control-label">Ürün Fiyatı</label>
+              <div class="col-sm-10">
+                <input type="text" class="form-control" value="{{product.price}}" [(ngModel)]="product.price" [disabled]="!isAuthenticated">
+              </div>
+            </div>
+
+            <div class="form-group">
+              <label class="col-sm-2 control-label">Ürün Stok</label>
+              <div class="col-sm-10">
+                <input type="text" class="form-control" value="{{product.piece}}" [(ngModel)]="product.piece" [disabled]="!isAuthenticated">
+              </div>
+            </div>
+
+            <div class="box-footer">
+              <button class="btn btn-flat btn-primary pull-right" (click)="updateProduct()" *ngIf="isAuthenticated">Güncelle</button>
+            </div>
+
+          </div>
+        </div>
+        <div class="overlay" *ngIf="loading">
+          <i class="fa fa-refresh fa-spin"></i>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
