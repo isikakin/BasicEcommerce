@@ -1,6 +1,6 @@
 # Basic E-Commerce App
 
-Basic E-Commerce App ürünlerin bulunduğu, basit bir admin paneline sahip olan web platformudur. Identity Server, ProductService ve Frontend olmak üzere 3 platformdan oluşmaktadır. Servisler ve frontend uygulaması Azure Kubernetes üzerinde çalışmakta olup, sitenin ürün görselleri Azure Blob storage üzerinde bulunmaktadır. Uygulama database olarak Azure üzerinde PostgreSQL kullanmakta. Uygulamanın logları ise ElasticSearch üzerinde tutulmakta.
+Basic E-Commerce App ürünlerin bulunduğu, basit bir admin paneline sahip olan web platformudur. Identity Server, ProductService ve Frontend olmak üzere 3 platformdan oluşmaktadır. Servisler ve frontend uygulaması Azure Kubernetes üzerinde çalışmakta olup, sitenin ürün görselleri Azure Blob storage üzerinde bulunmaktadır. Uygulamanın CI/CD süreçleri de bulunmaktadır. Uygulama database olarak Azure üzerinde PostgreSQL kullanmakta. Uygulamanın logları ise ElasticSearch üzerinde tutulmakta.
 
 Identity Server: Kullanıcıların login işlemlerinin yapıldığı servis. (identity.akinisik.com altında çalışmakta)\
 ProductService: Ürünlerle ilgili işlemlerin yapıldığı servis. (product.akinisik.com)\
