@@ -94,7 +94,7 @@ export class ProductDetailComponent implements OnInit {
     this.loading = true;
     this.productService.deleteProduct(this.product.id).subscribe((res: any) => {
       this.loading = false;
-      this.router.navigate(['/login/']);
+      this.router.navigate(['/products/']);
     }, (err: any) => {
       this.loading = false;
       this.alert.swal(this.alert.systemError, err.message, this.alert.errorType);
