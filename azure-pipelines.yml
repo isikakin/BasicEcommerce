@@ -1,0 +1,92 @@
+trigger:
+- main
+
+resources:
+- repo: self
+
+variables:
+  dockerRegistryServiceConnection: '543ca6a0-f827-49ad-b6c1-33d15944b56b'
+  imageRepository: 'isikakininvproject'
+  containerRegistry: 'inveon.azurecr.io'
+  tag: '$(Build.BuildId)'
+  imagePullSecret: 'inveon4185-auth'
+  vmImageName: 'ubuntu-20.04'
+
+stages:
+- stage: Build
+  displayName: Docker Build
+  jobs:
+  - job: BuildProductService
+    displayName: Build ProductService
+    pool:
+      vmImage: $(vmImageName)
+    steps:
+    - task: Docker@2
+      displayName: Build and push an image to container registry
+      inputs:
+        command: buildAndPush
+        repository: $(imageRepository)
+        dockerfile: e-commerce-project/Dockerfile-ProductService
+        containerRegistry: $(dockerRegistryServiceConnection)
+        tags: |
+          product-$(tag)
+  - job: BuildIdentityServer
+    displayName: Build IdentityServer
+    pool:
+      vmImage: $(vmImageName)
+    steps:
+    - task: Docker@2
+      displayName: Build and push an image to container registry
+      inputs:
+        command: buildAndPush
+        repository: $(imageRepository)
+        dockerfile: e-commerce-project/Dockerfile-IdentityServer
+        containerRegistry: $(dockerRegistryServiceConnection)
+        tags: |
+          identity-$(tag)
+  - job: BuildFrontend
+    displayName: Build Frontend
+    pool:
+      vmImage: $(vmImageName)
+    steps:
+    - task: Docker@2
+      displayName: Build and push an image to container registry
+      inputs:
+        command: buildAndPush
+        repository: $(imageRepository)
+        dockerfile: e-commerce-project/Dockerfile-Frontend
+        containerRegistry: $(dockerRegistryServiceConnection)
+        tags: |
+          frontend-$(tag)
+
+- stage: Deploy
+  displayName: Deploy AKS
+  dependsOn: Build
+  jobs:
+  - job: Deploy
+    displayName: Deploy
+    pool:
+      vmImage: $(vmImageName)
+    steps:
+    - bash: |
+        cat manifests/IdentityServerSample.yml |envsubst |sudo dd of=manifests/IdentityServerSample.yml
+        cat manifests/ProductService.yml |envsubst |sudo dd of=manifests/ProductService.yml
+        cat manifests/Frontend.yml |envsubst |sudo dd of=manifests/Frontend.yml
+      displayName: 'Create Manifests'
+      env:
+        imageRepository: $(imageRepository)
+        containerRegistry: $(containerRegistry)
+        imagePullSecret: '$(imagePullSecret)'
+        tag: '$(Build.BuildId)'
+    - task: Kubernetes@0
+      displayName: 'kubectl apply'
+      inputs:
+        namespace: default
+        command: apply
+        arguments: -f manifests/.
+        kubernetesServiceConnection: 'inveon-default'
+        azureSubscription: 'Free Trial (0a25ad52-bc5f-4864-a308-cb37ff1d5913)'
+        azureContainerRegistry: '{"loginServer":"inveon.azurecr.io", "id" : "/subscriptions/0a25ad52-bc5f-4864-a308-cb37ff1d5913/resourceGroups/test/providers/Microsoft.ContainerRegistry/registries/inveon"}'
+        secretName: $(imagePullSecret) 
+        versionSpec: 1.19.7
+        outputFormat: yaml
