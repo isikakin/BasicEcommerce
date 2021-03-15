@@ -69,6 +69,7 @@
             </div>
 
             <div class="box-footer">
+              <button class="btn btn-flat btn-primary pull-right" (click)="deleteProduct()" *ngIf="isAuthenticated">Sil</button>
               <button class="btn btn-flat btn-primary pull-right" (click)="updateProduct()" *ngIf="isAuthenticated">Güncelle</button>
             </div>
 

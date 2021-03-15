@@ -54,7 +54,7 @@ export class ProductDetailComponent implements OnInit {
 
   detailProduct() {
     this.loading = true;
-    this.productService.getProduct(this.id).subscribe((product) => {
+    this.productService.getProduct(this.id).subscribe((product: any) => {
       if (product) {
         this.product = product;
         this.loading = false;
@@ -62,7 +62,7 @@ export class ProductDetailComponent implements OnInit {
         this.loading = false;
         this.alert.swal(this.alert.error, 'Veri yok', this.alert.errorType);
       }
-    }, (err) => {
+    }, (err: any) => {
       this.loading = false;
       this.alert.swal(this.alert.systemError, err.message, this.alert.errorType);
     });
@@ -84,6 +84,17 @@ export class ProductDetailComponent implements OnInit {
     this.productService.deleteProductImage(imageId).subscribe((res: any) => {
       this.getProductImages();
       this.loading = false;
+    }, (err: any) => {
+      this.loading = false;
+      this.alert.swal(this.alert.systemError, err.message, this.alert.errorType);
+    });
+  }
+
+  deleteProduct() {
+    this.loading = true;
+    this.productService.deleteProduct(this.product.id).subscribe((res: any) => {
+      this.loading = false;
+      this.router.navigate(['/login/']);
     }, (err: any) => {
       this.loading = false;
       this.alert.swal(this.alert.systemError, err.message, this.alert.errorType);
